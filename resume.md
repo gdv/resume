@@ -46,11 +46,15 @@ Research Activity
 Research interests
 ------------------
 
-His research activity is split among three Computer Science areas:
-Computational Biology, Graph Theory and Data Base. The main goals of
-such research are finding computational models for some problems,
-designing efficient algorithms for such problems or proving that
-efficient algorithms cannot exist (unless P=NP).
+My research interests are in the field of algorithms, especially regarding
+several problems in Computational Biology..
+Moreover, I am also interested in some problems in Graph Theory and Privacy.
+The unifying theme of my research is the development of new efficient combinatorial
+algorithms, which can exact or approximate. 
+The experimental analysis
+
+The main goals of his research are finding computational models for some problems, 
+designing an analyzing efficient algorithms for such problems. 
 
 Computational Biology is a field intersecting Biology and Computer
 Science and it consists of finding formal models and efficient
@@ -76,43 +80,26 @@ to have some computational tools for comparing sequences. In this
 direction the multiple sequence alignment problem has been formally
 introduced in (Altschul, Lipman SIAM J. Appl. Math. 1989), even though
 it had already been studied previously, and some of its variant are
-intractable. The candidate has studied some restrictions of the problem
-that have strong biological interest proving that such restrictions are
-computationally hard to solve, by employing polynomial reductions.
-Afterwards he has paid attention to other biologically relevant variants
-of the multiple sequence alignment problems, designing a
-smooth-polynomial programming based (Arora, Karger e Karpinski J.Comp.
-Syst. Sci. 2000) approximation scheme, as well as some heuristics. Two
-more formulation of the same biological problems are computing the
-longest common subsequence and the shortest common supersequence; two
-classical combinatorial problems that have found new applications in
-Molecular Biology. Both problems are NP-hard even on binary alphabet.
-The candidate has described and experimentally analyzed some new
-approximation algorithm for those problems. Moreover the longest common
-subsequence problems has a variant, called exemplar common subsequence,
-which has been introduced in studying genomic rearrangements. The
-candidate has proved that computing efficiently a solution for such
-problem is NP-hard and has designed efficient algorithms for some
-important cases.
+intractable. I have studied when this problem can be solved efficiently, even in an
+approximate sense.
+I have developed new algorithms for some different notions of sequence comparison, related
+to the classical notion of 
+longest common subsequence and shortest common supersequence. Those two combinatorial
+problems  have found new applications in Molecular Biology.
 
 ### Phylogeny reconstruction and comparison
 
 Reconstructing phylogenies is another problem that has great relevance
 in Computational Biology, as a phylogeny is an intuitive representation
-of a common evolutionary history of a set of extant species. One of the
-most common paradigms to efficiently solve such problem is called
-quartet-based reconstruction (a quartet is the optimal solution over
-four species): such technique relies on the lack of error in the quarted
-construction step. A technique for overcoming those problems, called
-quartet cleaning (Jiang, Kearney e Li, SIAM J. Comp. 2000), allows to
-find and correct some errors produced by the algorithm. The candidate
-has developed a practical algorithm improving both the running time and
-the number of errors that can be corrected. More recently he has also
-studied the problem of computing a phylogeny minimizing the number of
-quartets that are incompatible with a given set of quartets, obtaining
-an algorithm of mainly theoretical interest. The phylogeny comparision
-problem is fundamental when you have to compare the results of various
-experiments on the same set of species. In (Amir e Keselman, SIAM J.
+of a common evolutionary history of a set of extant species. 
+In this setting I have studied the quartet-based reconstruction technique (a quartet is the optimal solution over
+four species), developing new algorithms to clean some of the error that inherent in the
+use of such technique.
+
+The phylogeny comparison problem is fundamental when you have to compare the results of various
+experiments on the same set of species. 
+I have extensively studied the problem
+In (Amir e Keselman, SIAM J.
 Comp. 1997) some formulations of the problem have been introduced. The
 candidate has studied the computational complexity of the problem,
 finding some negative results on the approximability of the maximum
@@ -168,21 +155,6 @@ that can be obtained with a recent and economically viable technology.
 He has obtained some preliminary results on the computational complexity
 of the problem, and he has designed some efficient algorithms.
 
-### Gene regulatory network
-
-A fundamental step towards understanding protein production regards the
-relations among various genes that are in DNA. Briefly, when a gene is
-active it can activate or inhibit some other genes. More precisely,
-genes constitute a regulatory network where some gene pairs are a
-action-reaction bond, where an action is the fact that a gene is active
-or inactive and a reaction is the fact that the expression of some gene
-is forced or forbidden. Such network can be represented by an oriented
-labeled graph. The candidate has studied the problem of inferring the
-network from experimental data and he has designed a heuristic. Moreover
-he has studied a simple combinatorial formulation of the problem,
-proving an explicit lower bound on the approximation factor that any
-efficient algorithm can possibly achieve.
-
 ### Graph Algorithms
 
 The second main area of research is designing efficient combinatorial
@@ -200,7 +172,7 @@ extended to 2-structures (Ehrenfeucht e Rozenberg Theor. Comp. Sci.
 1993). The candidate has developed some efficient algorithms for
 computing the modular decomposition on hypergraphs and k-structures.
 
-### Clustering {#clustering .unnumbered}
+### Clustering
 
 The problem of classifying data in similar sets is one of the most
 important problems in Computer Science; it is common to have a
@@ -222,17 +194,6 @@ undecided data. His contributions consist of proving that some
 restrictions of the problem are APX-hard and designing a polynomial-time
 constant-factor approximation algorithm. Moreover, he has designed an
 efficient algorithm for a different restriction of the problem.
-
-### Data Bases
-
-Finally his research has also regarded data bases, as graph theory has
-found a new relevance in this field. The research activity has started
-within the proposed activity of three research contract with the
-National Electrical Energy Company (ENEL) regarding graph-based data
-bases. In fact a graph can be a simple and precise representation of
-data bases, especially semi-structured data bases such as the World Wide
-Web (Buneman, PODS 1997) (Abiteboul, ICDT 1997). The candidate has
-studied the expressiveness of some graph-based query languages.
 
 Research grants (as PI)
 -----------------------
@@ -257,6 +218,9 @@ Grandi Attrezzature 2006
 
 
 ### As a partecipant
+
+Fondazione Cariplo 2013
+: Modulation of anti-cancer immune response by regulatory non-coding RNAs
 
 Regione Lombardia 2013
 : SPAC3 - Servizi smart della nuova Pubblica amministrazione per la Citizen-Centricity in cloud.
@@ -308,51 +272,66 @@ Teaching
 Courses
 -------
 
-<span>2008</span>, “Strumenti informatici per la statistica M”
-(Computational tools for statistics), graduate level course, e-learning,
+2016
+: "Advanced Algoriths", PhD Computer Science,
 Univ. Milano-Bicocca.
 
-<span>2007-2009</span>, “Bioinformatica S” (Bioinformatics), graduate
-level course, Univ. Milano-Bicocca.
+2014-today
+: "Elementi di Bioinformatica" (Introduction to Bioinformatics), undergraduate Computer Science,
+Univ. Milano-Bicocca.
 
-<span>2007-2009</span>, “Informatica Applicata S” (Applied Computer
-Science), graduate level course, Univ. Milano-Bicocca.
-
-<span>2001-2008</span>, “Laboratorio Statistico-Informatico” (Laboratory
-of Computer Science for Statistics), undergraduate level, Univ.
+2009-today
+: “Basi di Dati” (Introduction to Data Bases), undergraduate level Statistics, Univ.
 Milano-Bicocca.
 
-<span>2001-2008</span>, “Programmazione e Basi Dati” (Data Bases and
-Programming), undergraduate level, Univ. Milano-Bicocca.
+2007-today
+: “Bioinformatica” (Bioinformatics), MSc Biostatistics, Univ. Milano-Bicocca.
 
-<span>2008</span>, “Fondamenti di Informatica” (Fundamentals of Computer
-Science), post-undergraduate level, Univ. Milano-Bicocca.
+2010-2013
+: "Algoritmi su stringhe" (Text Algorithms), undergraduate Computer Science,
+Univ. Milano-Bicocca.
 
-<span>2006</span>, “Laboratorio di Informatica” (Laboratory of Computer
-Science), undergraduate level, Univ. Milano-Bicocca.
+2008
+: “Strumenti informatici per la statistica M”
+(Computational tools for statistics), MSc Biostatistics, e-learning,
+Univ. Milano-Bicocca.
 
-<span>2004-2005</span>, “Bioinformatica: tecniche di base (laboratorio)”
-(Bioinformatics: basic techniques (lab.)), graduate level, Univ.
+2007-2009
+: “Informatica Applicata S” (Applied Computer
+Science), MSc Biostatistics, Univ. Milano-Bicocca.
+
+2001-2008
+: “Laboratorio Statistico-Informatico” (Laboratory
+of Computer Science for Statistics), undergraduate Statistics, Univ.
 Milano-Bicocca.
 
-<span>2004-2005</span>, “Informatica: Aspetti Avanzati” (Computer
-Science: Advanced Topics), post-undergraduate level, Univ.
+2001-2008
+: “Programmazione e Basi Dati” (Data Bases and
+Programming), undergraduate Statistics, Univ. Milano-Bicocca.
+
+2008
+: “Fondamenti di Informatica” (Fundamentals of Computer
+Science), post-undergraduate level Bioinformatics, Univ. Milano-Bicocca.
+
+2006
+: “Laboratorio di Informatica” (Laboratory of Computer
+Science), undergraduate Statistics, Univ. Milano-Bicocca.
+
+2004-2005
+: “Bioinformatica: tecniche di base (laboratorio)”
+(Bioinformatics: basic techniques (lab.)), MSc Bioinformatics, Univ.
 Milano-Bicocca.
 
-<span>2004</span>, “Information Technology For Problem Solving (IT4PS)”,
-undergraduate level, Univ. Milano-Bicocca.
-
-<span>2003</span>, “Fondamenti di Informatica e Elementi di
+2003
+: “Fondamenti di Informatica e Elementi di
 Programmazione” (Fundamentals of Computer Science and Elements of
-Programming), post-undergraduate level, Univ. Milano-Bicocca.
+Programming), post-undergraduate Bioinformatics, Univ. Milano-Bicocca.
 
-<span>2001-2002</span>, “Sistemi Informatici e Elementi di
+2001-2002
+: “Sistemi Informatici e Elementi di
 Programmazione” (Information Systems and Elements of Programming),
-post-undergraduate level, Univ. Milano-Bicocca.
+post-undergraduate Bioinformatics, Univ. Milano-Bicocca.
 
-<span>2000</span>, “Laboratorio di Algoritmi e Strutture Dati I”
-(Algorithms and Data Structures (lab.)), undergraduate level, Univ.
-Milano-Bicocca.
 
 Ph.D and M.Sc. Advisor
 ------
@@ -365,29 +344,27 @@ I have been a joint advisor of the following Ph.D. thesis:
 1.  Stefano Beretta, “Computational Problems in the Study of Genomic
     Variations”, (Ph.D. Computer Science), 2012
 
-I have been the main advisor of 3 M.Sc. students (1 of Computer
-Science, 1 of  Statistical and Economics Sciences, and 1 of
-Statistics)
-
-I have been the secondary advisor of 4 M.Sc. students of Computer Science.
+I have been the main or secondary advisor of more than 10 M.Sc. students (degree of Computer
+Science, of  Statistical and Economics Sciences, and of Statistics)
 
 ACADEMIC SERVICES 
 =================
 
+*   I am a member of the Editorial Board of "Advances in Bioinformatics" journal.
+
 *   I have reviewed papers for the following scientific journal:
 ACM/IEEE Transactions on Computational Biology and Bioinformatics,
-Algorithmica, Bioinformatics, Graphs and Combinatorics Information
-Processing Letters INFORMS J. Computing, Journal of Computer Science
-and Technology, Theoretical Computer Science and for several
-conferences such as Recomb (Research in Computational Biology),
-Stacs (Symposium on Theoretical Aspects of Computer Science), CPM,
-ISBRA.
+Algorithmica, Bioinformatics, Graphs and Combinatorics, Information
+Processing Letters, INFORMS J. Computing, Journal of Computer Science
+and Technology, Theoretical Computer Science, Theory of Computing Systems, and for several
+conferences.
 
 *   I have been editor of a special issue of Journal of Computer Science
     and Technology.
 
-*   I have been a member of the Program Commitee of Workshop on
-    Algorithms in Molecular Biology (ALBIO’08).
+*   I have been a member of the Program Commitee of Computability in Europe (CiE2013), the
+    Workshop on
+    Algorithms in Molecular Biology (ALBIO08).
 
 *   I have been a member of the local arrangement commitee of the
     workshop *Alternative Splicing in transcriptome and proteome
@@ -405,13 +382,16 @@ ISBRA.
 *   I have been in charge of the website of the School of Statistics and the
     Dept. of Statistics (2002-2011).
 
--   He is the representative of the School of Statistics in the
-    University-wide commitee for Computer Science (since 2004).
+*   I have been the representative of the School of Statistics in the
+    University-wide committee for Computer Science (2004-2012).
 
--   He is in charge of all computer labs of the School of Statistics
-    (since 2007).
 
--   He is a member of the School of Statistics commitee on e-learning
+*   I have been the delegate of the Faculty Head of the School of Statistics for e-learning (2010-2012).
+
+*   I have been in charge of all computer labs of the School of Statistics
+    (2007-2012).
+
+*   I have been member of the School of Statistics commitee on e-learning
     (since 2005).
 
 *   I have been in charge for the course 167388 “Laboratorio
