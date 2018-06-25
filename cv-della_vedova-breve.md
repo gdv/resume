@@ -40,7 +40,7 @@ splicing alternativi.
 Altri ambiti di ricerca sono algoritmi su grafi, clustering e data privacy.
 
 Ha pubblicato oltre 30 articoli su riviste scientifiche internazionali.
-H-index: 14. Citazioni: 1074 (fonte [Google Scholar](https://scholar.google.com/citations?user=0gaIFokAAAAJ&hl=en&oi=ao). 
+H-index: 15. Citazioni: 1177 (fonte [Google Scholar](https://scholar.google.com/citations?user=0gaIFokAAAAJ&hl=en&oi=ao). 
 
 Responsabile della parte bioinformatica di progetti di ricerca PRIN e MIUR-Regione
 Lombardia.
@@ -70,12 +70,12 @@ Servizio
 *  Membro del Comitato direttivo del Centro di Produzione Multimediale di Ateneo
 *  Supervisore di 3 tesi di dottorato e di oltre 10 tesi di laurea.
 
-Milano, 23/05/2017
+Milano, 23/12/2017
 
 ----
 
-> <gianluca.dellavedova@unimib.it> • [http://gianluca.dellavedova.org](http://gianluca.dellavedova.org)
+> <gianluca.dellavedova@unimib.it> • [https://gianluca.dellavedova.org](http://gianluca.dellavedova.org)
 
-> [orcid 0000-0001-5584-3089](http://orcid.org/0000-0001-5584-3089)
+> [orcid 0000-0001-5584-3089](https://orcid.org/0000-0001-5584-3089)
 
 ----
