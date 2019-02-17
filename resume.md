@@ -47,14 +47,12 @@ Research interests
 ------------------
 
 My research interests are in the field of algorithms, especially regarding
-several problems in Computational Biology..
+several problems in Bioinformatics.
 Moreover, I am also interested in some problems in Graph Theory and Privacy.
 The unifying theme of my research is the development of new efficient combinatorial
-algorithms, which can exact or approximate. 
-The experimental analysis
+algorithms, and their analysis from both a theoretical and an experimental point of view.
 
-The main goals of his research are finding computational models for some problems, 
-designing an analyzing efficient algorithms for such problems. 
+I have published more than 30 papers in international scientific journal. My h-index is 15.
 
 Computational Biology is a field intersecting Biology and Computer
 Science and it consists of finding formal models and efficient
@@ -231,17 +229,6 @@ MIUR/PRIN 2011
 MIUR/Regione Lombardia 2011 (199 991€)
 : Piattaforma di Analisi TRaslazionale Integrata
 
-FA 2010 (6 806€)
-: Metodi algoritmici per l'analisi  di strutture combinatorie in bioinformatica.
-
-FAR 2009 (6 740€)
-: Metodi algoritmici innovativi per confrontare strutture combinatorie
-in biologia computazionale.
-
-FAR 2008 (6 996€)
-: Metodi computazionali per l’analisi di
-variazioni geniche in presenza di modelli evolutivi
-
 MIUR/PRIN 2005, Potenzialità e ottimizzazione
 delle banche dati automatizzate in epidemiologia
 
@@ -250,9 +237,7 @@ MIUR/FIRB 2003
 Proteomica
 
 
-
 ## Visiting researcher
-
 
 July-August 2000
 : Research visitor, Dept. Computer Science, Univ. of California at
@@ -272,7 +257,10 @@ Teaching
 Courses
 -------
 
-2016
+2017-
+: "Foundations of Computer Science", MSc Data Science, Univ. Milano-Bicocca
+
+2016, 2018
 : "Advanced Algoriths", PhD Computer Science,
 Univ. Milano-Bicocca.
 
@@ -344,6 +332,8 @@ I have been a joint advisor of the following Ph.D. thesis:
 1.  Stefano Beretta, “Computational Problems in the Study of Genomic
     Variations”, (Ph.D. Computer Science), 2012
 
+1.  Marco Previtali, “Self-indexing for de novo assembly”, (Ph.D. Computer Science), 2017
+
 I have been the main or secondary advisor of more than 10 M.Sc. students (degree of Computer
 Science, of  Statistical and Economics Sciences, and of Statistics)
 
@@ -362,8 +352,8 @@ conferences.
 *   I have been editor of a special issue of Journal of Computer Science
     and Technology.
 
-*   I have been a member of the Program Commitee of Computability in Europe (CiE2013), the
-    Workshop on
+*   I have been a member of the Program Commitee of Computability in Europe (CiE2013, CiE2019), the
+    Workshop on 
     Algorithms in Molecular Biology (ALBIO08).
 
 *   I have been a member of the local arrangement commitee of the

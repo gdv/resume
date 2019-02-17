@@ -19,4 +19,5 @@ clean:
 
 .PHONY: clean
 
-
+pubblicazioni.pdf: pubblicazioni.tex references.bib
+	latexmk -pdf pubblicazioni
