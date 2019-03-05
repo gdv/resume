@@ -43,6 +43,13 @@ Advisors Prof. Giancarlo Mauri, Prof. Paola Bonizzoni.
 Research Activity 
 =================
 
+He has published more than 30 journal papers with more than 1100 citations and h-index 15
+(from Google Scholar).
+He has been the PI or co-PI for several projects that have been funded more than 100.000€ overall.
+He is a member of the Editorial Board of "Advances in Bioinformatics" journal, and he has
+been a guest editor of a special issue of the Journal of Computer Science and Technology.
+He has been an invited speaker at the Computaiblity in Europe 2017 conference.
+
 Research interests
 ------------------
 

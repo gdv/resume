@@ -49,7 +49,7 @@ Ha pubblicato oltre 30 articoli su riviste scientifiche internazionali.
 H-index: 16. Citazioni: 1252 (fonte [Google Scholar](https://scholar.google.com/citations?user=0gaIFokAAAAJ&hl=en&oi=ao). 
 
 Responsabile del progetto Grandi Attrezzature "Laboratorio Virtuale
-Statistico-Territoriale"
+Statistico-Territoriale" e di diversi Fondi di Ateneo.
 
 Didattica
 ---------------------
@@ -61,10 +61,11 @@ Ha insegnato nei corsi di Laurea specialistica/magistrale in Biostatistica; Scie
 Statistiche ed Economiche; Data Science, oltre che nei master in Bioinformatica; Master in
 Amministrazione di sistemi diagnostici per immagini; Master in Bioinformatica.
 
+\`E Membro del collegio docenti del Dottorato di ricerca in Informatica. 
+
 Servizio
 --------
 
-*  Membro del collegio docenti del Dottorato di ricerca in Informatica.
 *  Membro del Editorial Board di "Advances in Bioinformatics".
 *  Editor di special issue di "Journal of Computer Science and Technology"
 *  Membro di comitato di programma delle conferenze scientifiche CiE 2013 2019,
@@ -73,8 +74,25 @@ Servizio
    omics data", "Workshop on Algorithms in Molecular Biology"
 *  Membro del Comitato direttivo del Centro di Produzione Multimediale di Ateneo
 *  Supervisore di 3 tesi di dottorato e di oltre 10 tesi di laurea.
+*  E' membro della Commissione Paritetica del Dipartimento di Informatica,
+   Sistemistica e Comunicazione
+*  E' Assicuratore di qualità del corso di laurea magistrale in Data Science.
+*  E' stato delegato per l'e-learning del Preside della Facoltà di Scienze
+   Statistiche.
+*  E'  stato rappresentante dell'Area informatica all'interno della Facoltà di Scienze
+   Statistiche.
+*  E'  stato membro del comitato incaricato di progettare il corso di laurea
+   triennale ``Statistica e Gestione delle Informazioni``.
+*  E'  stato il docente responsabile dei laboratori informatici  della Facoltà di Scienze
+   Statistiche. 
+*  E'  stato responsabile del corso 167388 “Laboratorio Complementare di
+Informatica per Statistici”, parte del progetto FSE 156165 “Progetto Quadro
+Università degli Studi di Milano-Bicocca”, interamente finanziato da EU.
+*  E'  stato il responsabile per la Facoltà di Scienze  Statistiche del corso  “Information Technology For
+Problem Solving (IT4PS)”, organizzato dalla Fondazione CRUI.
 
-Milano, 23/12/2018
+
+Milano, 05/03/2019
 
 ----
 
