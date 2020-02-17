@@ -15,11 +15,11 @@ title: Della Vedova Gianluca
       Università degli Studi di Milano – Bicocca.
 
 10/2005-09/2012
-:     Professore Associato, Facoltà di Statistica, Università degli Studi di
+:     Professore Associato, Facoltà di Scienze Statistiche, Università degli Studi di
       Milano – Bicocca.
 
 05/2001-09/2005
-:    Ricercatore Universitario, Facoltà di Statistica, Università degli Studi di
+:    Ricercatore Universitario, Facoltà di Scienze Statistiche, Università degli Studi di
      Milano – Bicocca.
 
 Formazione
@@ -46,7 +46,7 @@ splicing alternativi.
 Altri ambiti di ricerca sono algoritmi su grafi, clustering e data privacy.
 
 Ha pubblicato oltre 30 articoli su riviste scientifiche internazionali.
-H-index: 16. Citazioni: 1252 (fonte [Google Scholar](https://scholar.google.com/citations?user=0gaIFokAAAAJ&hl=en&oi=ao). 
+H-index: 16. Citazioni: 1381 (fonte [Google Scholar](https://scholar.google.com/citations?user=0gaIFokAAAAJ&hl=en&oi=ao)). 
 
 Responsabile del progetto Grandi Attrezzature "Laboratorio Virtuale
 Statistico-Territoriale" e di diversi Fondi di Ateneo.
@@ -54,22 +54,24 @@ Statistico-Territoriale" e di diversi Fondi di Ateneo.
 Didattica
 ---------------------
 
-Dal 2001 a oggi ha insegnato nei i corsi di Laurea in Statistica; Statistica e Gestione
+Dal 2001 a oggi ha insegnato nei corsi di Laurea in Statistica; Statistica e Gestione
 delle Informazioni; Scienze Statistiche ed Economiche; Informatica.
 
 Ha insegnato nei corsi di Laurea specialistica/magistrale in Biostatistica; Scienze
 Statistiche ed Economiche; Data Science, oltre che nei master in Bioinformatica; Master in
 Amministrazione di sistemi diagnostici per immagini; Master in Bioinformatica.
 
-\`E Membro del collegio docenti del Dottorato di ricerca in Informatica. 
+Membro del collegio docenti e vice-coordinatore del Dottorato di ricerca in
+Informatica. 
+
 
 Servizio
 --------
 
-*  Membro del Editorial Board di "Advances in Bioinformatics".
+*  E' stato membro del Editorial Board di "Advances in Bioinformatics".
 *  Editor di special issue di "Journal of Computer Science and Technology"
-*  Membro di comitato di programma delle conferenze scientifiche CiE 2013 2019,
-   SPIRE 2017, CPM 2019.
+*  Membro di comitato di programma delle conferenze scientifiche CiE 2013 2019 2020,
+   SPIRE 2017, CPM 2019, WABI 2020.
 *  Membro di comitato di programma dei workshop "Workshop on Graph Assembly Algorithms for
    omics data", "Workshop on Algorithms in Molecular Biology"
 *  Membro del Comitato direttivo del Centro di Produzione Multimediale di Ateneo
@@ -82,7 +84,7 @@ Servizio
 *  E'  stato rappresentante dell'Area informatica all'interno della Facoltà di Scienze
    Statistiche.
 *  E'  stato membro del comitato incaricato di progettare il corso di laurea
-   triennale ``Statistica e Gestione delle Informazioni``.
+   triennale *Statistica e Gestione delle Informazioni*.
 *  E'  stato il docente responsabile dei laboratori informatici  della Facoltà di Scienze
    Statistiche. 
 *  E'  stato responsabile del corso 167388 “Laboratorio Complementare di
@@ -92,7 +94,7 @@ Università degli Studi di Milano-Bicocca”, interamente finanziato da EU.
 Problem Solving (IT4PS)”, organizzato dalla Fondazione CRUI.
 
 
-Milano, 05/03/2019
+Milano, 17/02/2020
 
 ----
 
