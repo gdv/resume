@@ -98,7 +98,7 @@ Milano, 17/02/2020
 
 ----
 
-> <gianluca.dellavedova@unimib.it> • [https://gianluca.dellavedova.org](http://gianluca.dellavedova.org)
+> <gianluca.dellavedova@unimib.it> • [https://gianluca.dellavedova.org](https://gianluca.dellavedova.org)
 
 > [orcid 0000-0001-5584-3089](https://orcid.org/0000-0001-5584-3089)
 

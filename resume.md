@@ -40,7 +40,7 @@ Thesis title: Sequential and Parallel Algorithms for Decomposing Graphs
 Advisors Prof. Giancarlo Mauri, Prof. Paola Bonizzoni.
 
 
-Research Activity 
+Research Activity
 =================
 
 He has published more than 30 journal papers with more than 1100 citations and h-index 15
@@ -88,7 +88,7 @@ it had already been studied previously, and some of its variant are
 intractable. I have studied when this problem can be solved efficiently, even in an
 approximate sense.
 I have developed new algorithms for some different notions of sequence comparison, related
-to the classical notion of 
+to the classical notion of
 longest common subsequence and shortest common supersequence. Those two combinatorial
 problems  have found new applications in Molecular Biology.
 
@@ -96,13 +96,13 @@ problems  have found new applications in Molecular Biology.
 
 Reconstructing phylogenies is another problem that has great relevance
 in Computational Biology, as a phylogeny is an intuitive representation
-of a common evolutionary history of a set of extant species. 
+of a common evolutionary history of a set of extant species.
 In this setting I have studied the quartet-based reconstruction technique (a quartet is the optimal solution over
 four species), developing new algorithms to clean some of the error that inherent in the
 use of such technique.
 
 The phylogeny comparison problem is fundamental when you have to compare the results of various
-experiments on the same set of species. 
+experiments on the same set of species.
 I have extensively studied the problem
 In (Amir e Keselman, SIAM J.
 Comp. 1997) some formulations of the problem have been introduced. The
@@ -215,7 +215,7 @@ bioinformatica.
 FA 2011 (4 055€)
 :    Tecniche algoritmiche avanzate in Biologia Computazionale.
 
-FAR 2006 
+FAR 2006
 :   Algoritmi efficienti per la ricostruzione e il confronto di storie evolutive
 
 Grandi Attrezzature 2006
@@ -265,7 +265,7 @@ Courses
 -------
 
 2017-
-: "Foundations of Computer Science", MSc Data Science, Univ. Milano-Bicocca
+: "Foundations of Computer Science", MSc Data Science, Univ. Milano-Bicocca.
 
 2016, 2018
 : "Advanced Algoriths", PhD Computer Science,
@@ -344,7 +344,7 @@ I have been a joint advisor of the following Ph.D. thesis:
 I have been the main or secondary advisor of more than 10 M.Sc. students (degree of Computer
 Science, of  Statistical and Economics Sciences, and of Statistics)
 
-ACADEMIC SERVICES 
+ACADEMIC SERVICES
 =================
 
 *   I am a member of the Editorial Board of "Advances in Bioinformatics" journal.
@@ -360,7 +360,7 @@ conferences.
     and Technology.
 
 *   I have been a member of the Program Commitee of Computability in Europe (CiE2013, CiE2019), the
-    Workshop on 
+    Workshop on
     Algorithms in Molecular Biology (ALBIO08).
 
 *   I have been a member of the local arrangement commitee of the
@@ -396,7 +396,7 @@ conferences.
     FSE 156165 “Progetto Quadro Università degli Studi di
     Milano-Bicocca”. The course has been entirely funded by the European
     Community.
-	
+
 
 *   I have been in charge for the School of Statistics for the course
     “Information Technology For Problem Solving (IT4PS)”, organized by
@@ -404,7 +404,7 @@ conferences.
 
 ----
 
-> <gianluca.dellavedova@unimib.it> • [http://gianluca.dellavedova.org](http://gianluca.dellavedova.org)
+> <gianluca.dellavedova@unimib.it> • [https://www.unimib.it/gianluca-della-vedova](https://www.unimib.it/gianluca-della-vedova)
 
 > +39 026448 7881 • viale Sarca 336, Milano(Italy)
 
