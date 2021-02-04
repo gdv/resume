@@ -1,10 +1,12 @@
-DELLA VEDOVA GIANLUCA
-=====================
+DELLA VEDOVA GIANLUCA  -- CV
+============================
 
 ----
 
 >  Professore Associato-Confermato (SSD INF/01 - Informatica)
+>
 >  Dipartimento di Informatica, Sistemistica e Comunicazione
+>
 >  Università degli Studi di Milano-Bicocca
 
 ----
@@ -20,6 +22,13 @@ Ruoli
 
 05/2001-09/2005
 :    Ricercatore, Facoltà di Scienze Statistiche, Università degli Studi di Milano–Bicocca.
+
+
+Abilitazione
+------------
+
+08/2018-oggi
+:  Abilitazione a Professore di I fascia, settore concorsuale 01/B1.
 
 Titoli di studio
 ---------
@@ -38,221 +47,147 @@ Prof. Paola Bonizzoni (Univ. Milano-Bicocca).
 Tesi: Algoritmi sequenziali e paralleli per la decomposizione di grafi.
 
 
-Research Activity
-=================
+Progetti di ricerca
+===================
 
-He has published more than 30 journal papers with more than 1100 citations and h-index 15
-(from Google Scholar).
-He has been the PI or co-PI for several projects that have been funded more than 100.000€ overall.
-He is a member of the Editorial Board of "Advances in Bioinformatics" journal, and he has
-been a guest editor of a special issue of the Journal of Computer Science and Technology.
-He has been an invited speaker at the Computaiblity in Europe 2017 conference.
-
-Research interests
-------------------
-
-My research interests are in the field of algorithms, especially regarding
-several problems in Bioinformatics.
-Moreover, I am also interested in some problems in Graph Theory and Privacy.
-The unifying theme of my research is the development of new efficient combinatorial
-algorithms, and their analysis from both a theoretical and an experimental point of view.
-
-I have published more than 30 papers in international scientific journal. My h-index is 15.
-
-Computational Biology is a field intersecting Biology and Computer
-Science and it consists of finding formal models and efficient
-computational solutions to problems arising in biological data analysis.
-This research field has gained relevance with the establishment of the
-Human Genome project whose main goal is to determine the influence that
-biological sequences (such as DNA, RNA) have on living beings.
-Completing the sequencing of the human genome was only the first
-fundamental step; finding which proteins are expressed by each gene and
-determining the interaction among the various DNA sites are among the
-most important open problems. The huge quantity of data that has to be
-analyzed (remember that human DNA contains 3 billions nucleotides) makes
-computers and efficient algorithms a needed cornerstone of the field.
-The candidate’s research has been mainly devoted to the design of such
-efficient algorithms and can be detailed in a few subfield.
-
-### Sequence comparison
-
-The central dogma in Computational Biology states that sequence homology
-leads to functional homologies (that is similarity among the effects
-performed by such sequences), therefore it is of the utmost importance
-to have some computational tools for comparing sequences. In this
-direction the multiple sequence alignment problem has been formally
-introduced in (Altschul, Lipman SIAM J. Appl. Math. 1989), even though
-it had already been studied previously, and some of its variant are
-intractable. I have studied when this problem can be solved efficiently, even in an
-approximate sense.
-I have developed new algorithms for some different notions of sequence comparison, related
-to the classical notion of
-longest common subsequence and shortest common supersequence. Those two combinatorial
-problems  have found new applications in Molecular Biology.
-
-### Phylogeny reconstruction and comparison
-
-Reconstructing phylogenies is another problem that has great relevance
-in Computational Biology, as a phylogeny is an intuitive representation
-of a common evolutionary history of a set of extant species.
-In this setting I have studied the quartet-based reconstruction technique (a quartet is the optimal solution over
-four species), developing new algorithms to clean some of the error that inherent in the
-use of such technique.
-
-The phylogeny comparison problem is fundamental when you have to compare the results of various
-experiments on the same set of species.
-I have extensively studied the problem
-In (Amir e Keselman, SIAM J.
-Comp. 1997) some formulations of the problem have been introduced. The
-candidate has studied the computational complexity of the problem,
-finding some negative results on the approximability of the maximum
-common isomorphic subtree, describing an L-reduction and then applying
-the self-improvement technique (Karger, Motwani e Ramkumar, Algorithmica
-1997). The candidate has also studied some other variants of the
-phylogeny comparison problem, more precisely when dealing with trees
-computed on different genes over the same species set, designing some
-efficient algorithms and solving a problem left open in (Ma, Li e Zhang,
-SIAM J. Comp. 2000).
-
-### DNA microarray design
-
-The introduction of DNA microarray have greatly increased the throughput
-of experimental data in Molecular Biology. Such technology (Drmanac et.
-al. Science 1991) has given relevance to some computational problems on
-the optimal microarray synthesis or on the experimental data analysis.
-More precisely, classifying microbial communities can be performed only
-exploiting microarrays, as the microbial external aspect is hard to
-study, due to their extremely small size. A fundamental computational
-problem in this field is computing the minimum set of substrings that
-are able to distinguish a set of strings (Probe Selection). The
-importance of this problem is due to the fact that it formalizes the
-search for the cheapest experiment obtaining the desired result. The
-candidate has proposed, implemented and analyzed some algorithms, while
-supervising the use of the implementation on some biological data that
-were previously impossible to analyze. This effort has led to a new
-protocol for microbial communities analysis.
-
-### Haplotyping
-
-Several species, including human beings, are diploid, that is each
-chromosome consists of two distinct copies called haplotypes. Current
-technological limitations do not allow to cheaply compute those
-haplotypes, but only genotypes (that is the two nucleotides that are in
-the same position in those haplotypes). Since it is important to know
-the actual haplotypes, a number of related computational problems have
-been recently introduced; those problems compose the field of
-haplotyping.
-
-He has designed and analyzed an algorithm to complete haplotypes on
-incomplete data and under the coalescent model (such models forbids some
-otherwise possible recombinations), where the objective function is the
-entropy of the solution. The algorithm belongs to the class of
-Kernighan-Lin heuristics and it has been empirically and favorably
-compared to the greedy algorithm that was previously routinely employed.
-
-Moreover he has studied the xor-genotyping problem, where the input data
-contains even less information that in most other haplotyping problems,
-as it is known only the positions where the two haplotypes differ, and
-not their contents. This formulation is a faithful model of the results
-that can be obtained with a recent and economically viable technology.
-He has obtained some preliminary results on the computational complexity
-of the problem, and he has designed some efficient algorithms.
-
-### Graph Algorithms
-
-The second main area of research is designing efficient combinatorial
-algorithms for some problems on graphs. Graph theory is one of the most
-important research fields that are common to Computer Science and
-Discrete Mathematics, as graphs are a mathematical device that is
-suitable for natural modeling of various real-world problems. One of the
-techniques that has been widely employed for designing efficient graph
-algorithm consists of decomposing the graph and then solving the problem
-on the smaller parts for finally recombining the partial solutions. The
-candidate has studied a kind of decomposition called modular
-decomposition, introduced by Gallai in 1967 for graphs and successively
-extended to 2-structures (Ehrenfeucht e Rozenberg Theor. Comp. Sci.
-1990) and k-structures (Ehrenfeucht e McConnell, Theor. Comp. Sci.
-1993). The candidate has developed some efficient algorithms for
-computing the modular decomposition on hypergraphs and k-structures.
-
-### Clustering
-
-The problem of classifying data in similar sets is one of the most
-important problems in Computer Science; it is common to have a
-similarity measure between pairs of elements and to aim at computing a
-partition of the elements so that elements in a common sets are similar
-while elements in different sets are not similar. In this field the
-candidate has studied the recently introduced correlation clustering
-problem (Bansal, Blum e Chawla, FOCS 2002) where a weighted graph is the
-main tool for formally modeling the problem. He has also pointed out
-some connections with another version of clustering, showing that an
-interesting restriction of the problem is NP-complete and providing two
-polynomial-time approximation schemes for a different formulation of the
-problem.
-
-Moreover he has studied a different clustering problem, closely related
-to the analysis of microarray data. In this case, data are represented
-as vectors on $\{0,1,N\}$ alphabet, where $N$ stands for missing or
-undecided data. His contributions consist of proving that some
-restrictions of the problem are APX-hard and designing a polynomial-time
-constant-factor approximation algorithm. Moreover, he has designed an
-efficient algorithm for a different restriction of the problem.
-
-Research grants (as PI)
+Responsabile
 -----------------------
 
-### Responsabile
+2020-2023
+:   H2020-MSCA-RISE-2019 (importo Univ. Milano-Bicocca 197 800€) nell'ambito dell'azione Research Innovation Staff Exchange. Pan-genome Graph Algorithms and Data Integration (PANGAIA). In questo progetto, con coordinatore interno al mio laboratorio di ricerca, sono stato fra i principali estensori della proposta e sono il **responsabile del WP5** Communication and Dissemination. Il progetto prevede la collaborazione fra 7 istituzioni beneficiarie (4 Università, 1 ente di ricerca e 2 aziende) di 6 nazioni europee e 4 partner in USA, Canada e Giappone.
 
-H2020-MSCA-2019 (197 800€)
-:   Pan-genome Graph Algorithms and Data Integration. In questo progetto sono il responsabile del WP5 Communication and
-Dissemination.
+2021-2024
+: H2020-MSCA-ITN  (importo Univ. Milano-Bicocca 261499,68€) nell'ambito dell'azione Innovative Training Network.
+ALgorithms for PAngenome Computational Analysis (ALPACA). In questo progetto ho la responsabilità di **co-supervisionare un dottorando** nel periodo 2021-2024. Il progetto vede 13 beneficiari (7 università, 5 enti di ricerca, 1 azienda) e 10 partner europei.
 
-FA 2016 (12 490€)
-:    Modelli computazionali e algoritmi: aspetti teorici e sperimentali, con applicazioni alla Bioinformatica
+2013-2016
+: Fondazione Cariplo 2013
+Modulation of anti-cancer immune response by regulatory non-coding RNAs. Responsabile del WP bioinformatico.
+ Il progetto mi ha portato ad essere
+ 	**responsabile Scientifico di due assegni di ricerca** annuali e ho co-supervisionato le attività di un terzo assegno di ricerca annuale.
 
-FA 2015 (10 980€)
-:    Algoritmi combinatori e modelli di calcolo: aspetti teorici e applicazioni in Bioinformatica
+2011-2014
+: MIUR/Regione Lombardia 2011 (importo Univ. Milano-Bicocca 199 991€).
+Piattaforma di Analisi TRaslazionale Integrata. In questo progetto sono stato il **responsabile di tutti gli aspetti bioinformatici**.
+Il progetto ha portato all'attivazione di un assegno di ricerca annuale (costo 23.000€) e 3 contratti di collaborazioni (ognuno di importo lordo al collaboratore fra 10.000€ e 12.000€). Ho co-supervisionato le attività relative all'assegno di ricerca, e sono stato unico responsabile scientifico delle attività relative ai contratti di collaborazione.
 
-FA 2014 (12 186€)
-:    Algoritmi e modelli computazionali: aspetti teorici e applicazioni
-nelle scienze della vita.
+2016
+:   Fondo di Ateneo 2016 (12 490€).
+ Modelli computazionali e algoritmi: aspetti teorici e sperimentali, con applicazioni alla Bioinformatica. **Responsabile** del progetto.
 
-FA 2013 (9 337€)
-:    Metodi algoritmici e modelli: aspetti teorici e applicazioni in
-bioinformatica.
-FA 2011 (4 055€)
-:    Tecniche algoritmiche avanzate in Biologia Computazionale.
+2015
+:   Fondo di Ateneo 2015 (10 980€).
+ Algoritmi combinatori e modelli di calcolo: aspetti teorici e applicazioni in Bioinformatica. **Responsabile** del progetto.
 
-FAR 2006
-:   Algoritmi efficienti per la ricostruzione e il confronto di storie evolutive
+2014
+:  Fondo di Ateneo 2014 (12 186€).
+Algoritmi e modelli computazionali: aspetti teorici e applicazioni
+nelle scienze della vita. **Responsabile** del progetto.
 
-Grandi Attrezzature 2006 (40000€)
-:   Laboratorio Virtuale Statistico-Territoriale. Questo progetto, condiviso fra il Dipartimento di Statistica e il Dipartimento di Sociologia, ha portato all'acquisto di 2 server per la fornitura di servizi di ricerca e didattica in ambiti di Sociologia del territorio e Statistica computazionale.
+2013
+:   Fondo di Ateneo 2013 (9 337€).
+Metodi algoritmici e modelli: aspetti teorici e applicazioni in
+bioinformatica. **Responsabile** del progetto.
+
+2011
+:   Fondo di Ateneo 2011 (4 055€).
+Tecniche algoritmiche avanzate in Biologia Computazionale. **Responsabile** del progetto.
+
+2006
+:  Grandi Attrezzature 2006 (40000€).
+Laboratorio Virtuale Statistico-Territoriale. Questo progetto, condiviso fra il Dipartimento di Statistica e il Dipartimento di Sociologia, ha portato all'acquisto di 2 server per la fornitura di servizi di ricerca e didattica in ambiti di Sociologia del territorio e Statistica computazionale. **Responsabile** del progetto.
+
+2005-2008
+:  MIUR/PRIN 2005, Potenzialità e ottimizzazione
+delle banche dati automatizzate in epidemiologia. In questo progetto sono stato il **responsabile di tutti gli aspetti bioinformatici**.
 
 
-### Partecipazione
+Partecipante
+-------------
 
-H2020-MSCA-ITN 2020
-: ALgorithms for PAngenome Computational Analysis (importo Univ. Milano-Bicocca 261499,68€). In questo progetto è previsto che io sia co-supervisor di un dottorando nel periodo 2021-2024.
 
-Fondazione Cariplo 2013
-: Modulation of anti-cancer immune response by regulatory non-coding RNAs
+2013-2016
+: Regione Lombardia. SPAC3 - Servizi smart della nuova Pubblica amministrazione per la Citizen-Centricity in cloud.
 
-Regione Lombardia 2013
-: SPAC3 - Servizi smart della nuova Pubblica amministrazione per la Citizen-Centricity in cloud.
-
-MIUR/PRIN 2011
+2011-2014
+: MIUR/PRIN 2011
 : Automi e Linguaggi Formali: Aspetti Matematici e Applicativi
 
-MIUR/Regione Lombardia 2011 (importo Univ. Milano-Bicocca 199 991€)
-: Piattaforma di Analisi TRaslazionale Integrata. In questo progetto sono stato il responsabile di tutti gli aspetti bioinformatici.
 
-MIUR/PRIN 2005, Potenzialità e ottimizzazione
-delle banche dati automatizzate in epidemiologia. In questo progetto sono stato il responsabile di tutti gli aspetti bioinformatici.
+2003
+:  MIUR/FIRB 2003. Bioinformatica per la Genomica e la Proteomica.
 
-MIUR/FIRB 2003
-: Bioinformatica per la Genomica e la
-Proteomica
+2000-2001
+:  NSF CCR-9988353, ITR-0085910.
+
+1999-2001
+:  MURST COFIN 98 “Bioinformatica e ricerca genomica”.
+
+1994-1995
+:  MURST 40% "Algoritmi e strutture di calcolo".
+
+1994-1995
+:  ESPRIT-BRA ASMICS 2 n. 6317.
+
+Ricerca
+=================
+
+Ho pubblicato oltre 30 articoli su rivista scientifica con più di 1500 citazioni e h-index 17
+(secondo Google Scholar). In particolare, 7 lavori hanno superato le 100 citazioni (fonte Google Scholar).
+Inoltre ho lavorato con 166 coautori (fonte Scopus).
+
+Dal 2016 al 2019 sono stato responsabile del Laboratorio di Ricerca "AlgoLab - Experimental Algorithmics Lab", DIpartimento di Informatica, Sistemistica e Comunicazione, Università di Milano-Bicocca. Il laboratorio di ricerca si è  caratterizzata per numerose collaborazioni internazionali. Il laboratorio si occupa del disegno di algoritmi, della loro implementazione e dell'analisi sperimentale su dataset di grandi dimensioni, pertanto l'ambito di ricerca riguarda sia aspetti metodologici che sperimentali: ciò ha portato alla realizzazione di vari strumenti software per risolvere vari problemi in bioinformatica.
+
+La mia ricerca si è sempre focalizzata sullo sviluppo di algoritmi combinatori in Bioinformatica, con una forte componente fondazionale basata sullo studio delle proprietà formali dei problemi computazionali e passando per l'implementazione degli approcci proposti ed una validazione degli stessi sia da un punto di vista teorico che sperimentale.
+
+Le principali tematiche investigate sono state:
+
+**Confronto di sequenze**
+
+Il confronto di sequenze è uno dei problemi fondamentali in Bioinformatica, in quanto sequenze simili corrispondono a parti di genoma con funzionalità simili. In questo campo ha ottenuto importanti risultati sulla complessità computazionale di alcune formulazioni del problema, disegnando algoritmi efficienti per il calcolo di soluzioni approssimate.
+
+
+Le attività in questo ambito sono state svolte anche nell'ambito delle collaborazioni scientifiche con il Winfried Just (Dept. Mathematics, Ohio Univ.), Stéphane Vialette (LRI, Univ. Paris-Sud), Guillame Fertin (LINA, Univ. Nantes).
+
+**Ricostruzione storie evolutive**
+
+Il problema di ricostruire la storia evolutiva a partire da dati genomici di specie o cellule esistenti è stato uno dei principali ambiti della mia attività di ricerca. Inizialmente mi sono focalizzato su problematiche classiche di confronto di alberi evolutivi, ottenendo risultati sulla complessità di approssimazione, per poi descrivere algoritmi per la riconciliazione di alberi di geni e di specie (per individuare una storia evolutiva comune che sia una interpretazione ammissibile di alberi apparentemente incompatibili). Più recente ho contribuito a disegnare approcci efficienti per il problema della ricostruzione di storie evolutive tumorali, anche supervisionando le attività del gruppo di ricerca, oltre all'implementazione e l'analisi sperimentali di tali approcci.
+
+
+Questa tematica di ricerca è stata svolta anche nell'ambito delle collaborazioni internazionali con Harold Todd Wareham (Dept. Computer Science, Memorial Univ. Newfoundlands), Tao Jiang (Dept. Computer Science, Univ. California at Riverside), Gabriella Trucco (Univ. Milano), Jesper Jansson (The Hong Kong Polytechnic University), Iman Hajirasouliha (Weill Cornell Medical College, New York).
+Responsabile della collaborazione scientifica con il prof. Vladimir Filipovic, Univ. Belgrado, che è in sabbatico presso l'Univ. Milano-Bicocca dal 20/1/18. La collaborazione riguarda lo sviluppo di metaeuristiche in Bioinformatica, ed in particolare per la ricostruzione di evoluzioni tumorali.
+
+
+**Ricostruzioni di aplotipi**
+
+Diverse specie, incluso l'uomo, sono diploidi: ogni cromosoma è presente in due copie distinte detti aplotipi. Le tecnologie attuali riescono solo con difficoltà a determinare l'aplotipo di provenienza. In questo ambito, approcci informatici sono essenziali per riuscere ad ottenere i singoli aplotipi ad un costo accettabile.
+Dopo avere ottenuti alcuni risultati sulla complessità computazionale del problema, mi sono dedicato al disegno di approcci euristici efficienti, seguendo anche gli aspetti di implementazione e di analisi sperimentale. Il codice prodotto è stato incorporato in uno dei principali programmi utilizzati dalla comunità scientifica (https://whatshap.readthedocs.io/en/latest/howtocite.html).
+
+Le attività in questo ambito sono state svolte anche nell'ambito delle collaborazioni scientifiche con Tao Jiang (Univ. California at Riverside),  Alessandra Stella (CNR), Tobias Marschall (Heinrich Heine Univ., Düsseldorf), Romeo Rizzi (Univ. Verona).
+
+
+**Splicing alternativo**
+
+Lo splicing alternativo è il fenomeno biologico che permette ad un singolo gene di esprime più proteine.
+Dal punto di vista computazionale, il problema principale è che non abbiamo in input l'intera sequenza che viene tradotta in proteine (detta trascritto), ma solo sue porzioni. Pertanto diventa necessario esaminare queste porzioni per costruire tutti i trascritti, tenendo conto che presentano ripetizioni ed errori.
+In questo ambito ho contributito a disegnare approcci efficienti, seguendo anche gli aspetti di implementazione e di analisi sperimentale.
+
+Le attività in questo ambito sono state svolte anche nell'ambito delle collaborazioni scientifiche con Graziano Pesole (CNR e Head of Node di Elixir Italy IIB), Ernesto Picardi (Univ. Bari).
+
+
+**Algoritmi su Grafi**
+
+Gli aspetti combinatoriali di teoria dei grafi sono un ambito dove ho contribuito allo sviluppo di algoritmi efficienti, principalmente per il problema della decomposizione modulare, che è una tecnica che permette il disegno di algoritmi efficienti per diversi problemi.
+Più recentemente ho approfondito aspetti di teoria dei grafi, riuscendo a sfruttarli in diversi ambiti della Bioinformatica, sia per ottenere modelli computazionali più aderenti alla realtà biologica, sia per ottenere approcci efficienti. Ciò è stato fondamentale nell'attività inerente al settore innovativo della Pangenomica Computazionali, dove si intendono studiare insiemi di genomi tramite strutture a grafo. Tale ambito è l'oggetto dei progetti di ricerca europei PANGAIA (MSCA RISE 2019) e ALPACA (MSCA ITN 2020) indicati in precedenza.
+
+
+Le attività in questo ambito sono state svolte anche nell'ambito delle collaborazioni scientifiche con Alexander Schönhuth (Univ. Bielefeld).
+
+**Clustering**
+
+Il clustering è uno dei problemi più studiati in Informatica, anche a causa delle sue molteplici varianti ed applicazioni pratiche.
+Oltre ad avere contribuito all'avanzamento delle conoscenze relative alla complessità computazionale del problema del confronto di cluterizzazioni, ho disegnato algoritmi efficienti per la clusterizzazione di fingerprint, problema che trova la sua motivazione nello studio di comunità microbiche.
+Inoltre ho contribuito a risultati sulla complessità computazionale sul problema di anonimizzare tabelle tramite l'omissione di dati, un problema che trova la sua motivazione nell'ambito della data privacy.
 
 Didattica
 ========
@@ -266,14 +201,17 @@ Questa attività si è ripetuta più volte, sia in seguito all'evoluzione dei co
 
 La mia modalità di insegnamento è centrata sulla metodologia di active learning, che richiede una forte e continua interazione fra docente e studente, oltre che fra studenti. Ciò implica normalmente la costruzione di problemi che gli studenti devono affrontare, da soli o in gruppo. Anche in questo caso l'attività progettuale del corso è innovativa, in quanto le pratiche preesistenti e il materiale didattico erano invece pensate per modalità più tradizionali, dove gli studenti avevano principalmente un ruolo di uditori e la componente di problem solving era confinata ad un ruolo secondario.
 
-Insegnamenti
-------------
-
-2017-oggi
-: "Foundations of Computer Science", Laurea Magistrale in Data Science, Univ. Milano-Bicocca. (6 CFU). In questo caso ho dovuto progettare completamente l'insegnamento, in quanto il corso di studio era di nuova attivazione.
+Corsi di dottorato di ricerca
+-------------------------------
 
 2016, 2018, 2020
 : "Advanced Algoriths", Dottorato di Ricerca in Informatica, Univ. Milano-Bicocca (20 ore). In questo caso ho dovuto progettare completamente l'insegnamento che non era mai stato erogato in precedenza.
+
+Titolarità di Insegnamenti in Corsi di Studio
+--------------------------
+
+2017-oggi
+: "Foundations of Computer Science", Laurea Magistrale in Data Science, Univ. Milano-Bicocca. (6 CFU). In questo caso ho dovuto progettare completamente l'insegnamento, in quanto il corso di studio era di nuova attivazione.
 
 2014-oggi
 : "Elementi di Bioinformatica", Laurea Triennale in Informatica,
@@ -313,9 +251,15 @@ In questo caso ho dovuto progettare completamente l'insegnamento che non era mai
 2006
 : “Laboratorio di Informatica”, tutte le Lauree triennali della Facoltà di Scienze Statistiche (6 CFU), Univ. Milano-Bicocca.
 
+
+Esercitatore di insegnamenti
+----------------------------
+
 2004-2005
 : “Bioinformatica: tecniche di base (laboratorio)”, Laurea Magistrale in Bioinformatica (2 CFU), Univ.
 Milano-Bicocca.
+
+Insegnamenti di Master Universitari
 
 2003
 : “Fondamenti di Informatica e Elementi di
@@ -335,107 +279,205 @@ Master di primo livello in Bioinformatica, Univ. Milano-Bicocca.
 
 
 
-Relatore tesi di dottorato
+
+Supervisione
+============
+
+Assegnisti di ricerca
+------------------
+
+Sono stato **responsabile scientifico** dei seguenti assegni di ricerca:
+
+2018-2019
+:  Murray Patterson. Assegno di ricerca biennale con argomento "Haplotype assembly from sequencing reads". Attualmente Assistant Professor (Tenure-track) presso Georgia State University.
+
+2015
+:  Hassan Mahmoud Mohamed Ramadan Mohamed. Assegno di ricerca annuale con argomento “Methodology for treatment and data analysis of NGS data for the detection of alternate splicing events”
+
+Inoltre ho collaborato alla formazione dei seguenti assegnisti di ricerca:
+
+1.  Marco Previtali
+2.  Stefano Beretta
+
+Dottorandi
 ----------------
 
-Sono stato relatore delle seguenti tesi di dottorato in Informatica
+Sono stato **supervisor** delle seguenti tesi di dottorato in Informatica
 
 1.  Riccardo Dondi, “Computational Problems in the Study of Genomic
-    Variations”, 2004
+    Variations”, 2004 (attualmente Prof. Associato presso l'Università di Bergamo)
 
-2.  Stefano Beretta, “Computational Problems in the Study of Genomic
-    Variations”, 2012
+1.  Stefano Beretta, “Algorithms for Next Generation Sequencing Data Analysis”, 2012 (attualmente Bionformatico presso San Raffaele Telethon Institute for Gene Therapy)
 
-3.  Marco Previtali, “Self-indexing for de novo assembly”, 2017
+1.  Marco Previtali, “Self-indexing for de novo assembly”, 2017
 
-4.  Simone Ciccolella, "Algorithms for cancer phylogeny inference", termine previsto 2021
+1.  Simone Ciccolella, "Algorithms for cancer phylogeny inference", termine previsto 2021
 
-Relatore tesi di laurea magistrale
+Inoltre ho collaborato attivamente alla formazione dei seguenti dottorandi:
+
+1.  Anna Paola Carrieri, attualmente Research Staff Member presso IBM Research Lab, UK
+1.  Simone Zaccaria, attualmente Group Leader presso Department of Oncology, Univ. College London
+2.  Giulia Bernardini, attualmente postdoc press CWI, Amsterdam.
+
+
+
+Studenti di laurea magistrale
 ------------------
 
 Sono stato relatore o correlatore di oltre 10 studenti di laurea magistrale in Informatica, in Scienze Statistiche ed Economiche, in Biostatistica, in Data Science.
 
-SERVIZI
-=================
+In particolare ho seguito le attività nell'ambito del programma **Exchange mobility EXTRA UE** dei seguenti studenti:
+
+1. Ramesh Rajaby che ha trascorso 6 mesi presso il gruppo di ricerca del prof. Jesper Jansson (Kyoto University, Giappone). Ramesh Rajaby è attualmente postdoc alla National University of Singapore.
+2. Simone Ciccolella che ha trascorso un periodo di 3 mesi presso il gruppo di ricerca del prof. Iman Hajirasouliha (Weill Cornell Medical College, New York). Simone Ciccolella è attualmente dottorando sotto la mia supervisione.
+
+
+Studenti di laurea triennale
+----------------------------
+
+Ho supervisionato le attività di stage e di prova finale di oltre 40 studenti di Laurea Triennale in Statistica e Gestione delle Informazioni, in Informatica, in Scienze Statistiche ed Economiche, in Statistica.
+
+Attività di servizio
+====================
+
+
+Servizi per l'Ateneo
+--------------------
+
+2020-oggi
+:  **Rappresentante dell'Università degli Studi di Milano-Bicocca** nell'Assemblea Generale della Joint Research Unit ELIXIR IIB, nodo italiano di Elixir Europe, l'organizzazione intergovernativa per la Bioinformatica.
+
+2019-oggi
+:  **Vice coordinatore del Dottorato** di Ricerca in Informatica, Univ. Milano - Bicocca
+
+2018-oggi
+:  **Assicuratore di Qualità** del Corso di Laurea Magistrale in Data Science.
+
+2019-oggi
+:  **Presidente della Commissione Didattica** del Corso di Laurea Magistrale in Data Science. (check data)
+
+2018-oggi
+: **Responsabile** per l'Università degli Studi di Milano-Bicocca della Convenzione quadro con l'Istituto Nazionale di Genetica Molecolare.
+
+2020-oggi
+:  **Membro del Comitato Scientifico** del Master di secondo livello "qOmics: quantitative methods for Omics Data", Univ. di Milano-Bicocca e Univ. di Pavia.
+
+2018-oggi
+:  membro della **Commissione Paritetica Docenti-Studenti** del Dipartimento di Informatica, Sistemistica e Comunicazione
 
 2013-oggi
-:   Membro del Program Commitee delle seguenti conferenze scientifiche: Computability in Europe (CiE2013, CiE2019, CiE 2020), Workshop on Algorithms in Bioinformatics (WABI 2020), ISCB European Conference on Computational Biology (ECCB 2019), Combinatorial Pattern Matching (CPM 2019),
+:  Membro del collegio docenti del Dottorato di Ricerca in Informatica, Univ. Milano - Bicocca
+
+2015-2020
+:  Coordinatore Tecnico Locale per l'Univ. Milano-Bicocca delle attività inerenti Elixir IIB
+
+2016-oggi
+:  **Responsabile delle attività di training** per giovani ricercatori nell'ambito delle iniziative di Elixir IIB. In particolare ho organizzato corsi su "Genome Assembly and Annotation", "Data Carpentry Workshop", "Software Carpentry Workshop", "Docker Advanced", "Exome analysis with Galaxy".
+
+2016-2018
+:  Membro della commissione orientamento del Dipartimento di Informatica, Sistemistica e Comunicazione
+
+2002-2012
+:   **Referente dell'area Informatica** all'interno  della Facoltà di Scienze Statistiche. L'incarico è terminato con lo scioglimento della Facoltà.
+
+2004-2012
+:   **Rappresentante  della Facoltà** di Scienze Statistiche all'interno del comitato di Ateneo per l'Informatica.
+
+2010-2012
+:   **Delegato del Preside** della Facoltà di Scienze Statistiche per l'e-learning.
+
+2007-2012
+:   **Responsabile** di tutti i laboratori informatici della Facoltà di Scienze Statistiche
+
+2010-2012
+:   Membro della commissione per l'elearning della Facoltà di Scienze Statistiche.
+
+2002-2004
+:   **Referente dell'area Informatica** nella commissione della Facoltà di Scienze Statistiche che ha disegnato il corso di Laurea Triennale in Statistica    e Gestione delle Informazioni. Il CdL è ancora attivo.
+
+
+2004
+:   **Responsabile** per la Facoltà di Scienze Statistiche del corso
+    “Information Technology For Problem Solving (IT4PS)”, organizzato dalla Fondazione CRUI.
+
+2003
+:   **Responsabile** del corso 167388 “Laboratorio
+    Complementare di Informatica per Statistici”, all'interno del progetto
+    FSE 156165 “Progetto Quadro Università degli Studi di
+    Milano-Bicocca”. Il corso ha introdotto competenze informatiche di livello intermedio a studenti della Facoltà di Scienze Statistiche. L'iniziativa è stata interamente finanziata dall'Unione Europea.
+
+Servizi per la comunità scientifica
+-----------------------------------
+
+2013-oggi
+:   Membro del **Program Commitee** delle seguenti conferenze scientifiche: Computability in Europe (CiE2013, CiE2019, CiE 2020), Workshop on Algorithms in Bioinformatics (WABI 2020), ISCB European Conference on Computational Biology (ECCB 2019), Combinatorial Pattern Matching (CPM 2019),
 Symposium on String
 Processing and Information Retrieval (SPIRE 2017), Bioinformatics Open Source Conference (BOSC 2016-2019).
 
-2020
-: Chair del Workshop Data Structure in Bioinformatics (DSB 2020)
-
-
-2020-oggi
-:  rappresentante dell'Università degli Studi di Milano-Bicocca nell'Assemblea Generale della Joint Research Unit ELIXIR IIB, nodo italiano di Elixir Europe, l'organizzazione intergovernativa per la Bioinformatica.
 
 2018-oggi
-: Executive Officer dello Steering Committee della conferenza Computability in Europe
+: Executive Officer dello **Steering Committee** della conferenza Computability in Europe
 
-* Training: organizzazione corsi elixir
-
-2018-oggi
-: Responsabile per l'Università degli Studi di Milano-Bicocca della Convenzione quadro con l'Istituto Nazionale di Genetica Molecolare.
-
-
-2016-2019
-: Membro dell'Editorial Board della rivista scientifica "Advances in Bioinformatics".
-
-*  Revisore di articoli per le seguenti riviste scientifiche:
+1997-oggi
+:  Revisore di articoli per le seguenti riviste scientifiche:
 ACM/IEEE Transactions on Computational Biology and Bioinformatics,
 Algorithmica, Algorithms, Bioinformatics, Briefings in Bioinformatics, Graphs and Combinatorics, Information
 Processing Letters, INFORMS J. Computing, Journal of Computer Science
 and Technology, Theoretical Computer Science, Theory of Computing Systems.
 
 2020
-: editor degli atti del convegno Computability in Europe 2020, LNCS 12098.
+: **Chair** del Workshop Data Structure in Bioinformatics (DSB 2020)
+
+2020
+:  **Editor** degli atti del convegno Computability in Europe 2020, LNCS 12098.
+
+2020
+:   **Organizzazione**, insieme con  Iman Hajirasouliha (Weill-Cornell Medical College) della sessione speciale "Large Scale Bioinformatics and Computational Sciences" della conferenza Computability in Europe 2020
+
+2016-2019
+: Membro dell'**Editorial Board** della rivista scientifica "Advances in Bioinformatics".
+
+2018
+:  Membro del comitato di valutazione della Tesi di Dottorato di Mattia Gastaldello, Univ. Roma la Sapienza.
+
+2018
+:  Membro del comitato di valutazione della Tesi di Dottorato di Luca Ferrari, Univ. Milano.
+
+2017
+:   Membro della **commissione giudicatrice** in valutazione comparativa per una posizione di RTDb, Univ. Milano
 
 2004
-: editor di uno special issue di Journal of Computer Science
-    and Technology.
+: **editor di special issue** del Journal of Computer Science and Technology.
 
-2018
-:  membro del comitato di valutazione della Tesi di Dottorato di Mattia Gastaldello, Univ. Roma la Sapienza.
+Relazioni a convegni
+--------------------
 
-2018
-:  membro del comitato di valutazione della Tesi di Dottorato di Luca Ferrari, Univ. Milano.
+Ho presentato i risultati della mia attività di ricerca a diverse conferenze. In particolare:
 
+*  Sono stato relatore alla conferenza internazionale Intelligent Systems for Molecular Biology (ISMB) 2001: si tratta della principale conferenza in Bioinformatica (**CORE: A, Microsoft Academic: A+**). Ho presentato un lavoro in cui ero l'unico autore del mio Ateneo.
+*  Sono stato **invited speaker** della sessione speciale "Algorithmics for Biology" della conferenza Computability in Europe 2017.
 
+Terza Missione
+==============
 
-2002-2004
-:   Referente dell'area Informatica nella commissione della Facoltà di Scienze Statistiche che ha disegnato il corso di Laurea Triennale in Statistica
-    e Gestione delle Informazioni. Il CdL è ancora attivo.
-
-2002-2012
-:   Referente dell'area Informatica all'interno  della Facoltà di Scienze Statistiche. L'incarico è terminato con lo scioglimento della Facoltà
-
-2004-2012
-:   Rappresentante  della Facoltà di Scienze Statistiche all'interno del comitato di Ateneo per l'Informatica.
-
-2010-2012
-:   Delegato del Preside della Facoltà di Scienze Statistiche per l'e-learning.
-
-*   I have been in charge of all computer labs of the School of Statistics
-    (2007-2012).
-
-*   I have been member of the School of Statistics commitee on e-learning
-    (since 2005).
-
-*   I have been in charge for the course 167388 “Laboratorio
-    Complementare di Informatica per Statistici”, part of the project
-    FSE 156165 “Progetto Quadro Università degli Studi di
-    Milano-Bicocca”. The course has been entirely funded by the European
-    Community.
+Incarichi da enti esterni
+-------------------------
 
 
-*   I have been in charge for the School of Statistics for the course
-    “Information Technology For Problem Solving (IT4PS)”, organized by
-    CRUI Foundation.
+2003-2004
+: Incarico per studi relativi agli aspetti informatici relativi al progetto INTERREG IIIB (2000-2006) W.E.S.T. WOMEN EAST SMUGGLING TRAFFICKING (WP.2.2). **Committente: Fondazione Ismu-Iniziative e Studi sulla Multietnicità**. Sono stato l'unico ricercatore informatico coinvolto nel progetto.
 
-*   commissione rtdb milano
+2005
+: Incarico per studi relativi agli aspetti informatici relativi al progetto “Indagine Finalizzata all'Analisi degli Effetti Prodotti dai Processi di Regolarizzazione dei Lavoratori Extracomunitari, con Particolare Riferimento al Mercato del Lavoro e all'Integrazione Sociale nelle Regioni Ob. 1”, finanziato nell’ambito della Misura I.2 FESR “Adeguamento del Sistema di Controllo Tecnologico del Territorio” del PON Sicurezza 2000/2006. **Committente: Fondazione Ismu-Iniziative e Studi sulla Multietnicità**. Sono stato l'unico ricercatore informatico coinvolto nel progetto.
 
-*   membro difesa dottorato Milano + Roma
+Pubblicazioni
+=============
+
+Articoli in riviste internazionali
+-----------------------------------
+
+Articoli in atti di convegno internazionali
+-------------------------------------------
 
 ----
 
