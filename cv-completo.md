@@ -54,7 +54,7 @@ Responsabile
 -----------------------
 
 2020-2023
-:   H2020-MSCA-RISE-2019 (importo Univ. Milano-Bicocca 197 800€) nell'ambito dell'azione Research Innovation Staff Exchange. Pan-genome Graph Algorithms and Data Integration (PANGAIA). In questo progetto, con coordinatore interno al mio laboratorio di ricerca, sono stato fra i principali estensori della proposta e sono il **responsabile del WP5** Communication and Dissemination. Il progetto prevede la collaborazione fra 7 istituzioni beneficiarie (4 Università, 1 ente di ricerca e 2 aziende) di 6 nazioni europee e 4 partner in USA, Canada e Giappone.
+:   H2020-MSCA-RISE-2019 (importo Univ. Milano-Bicocca 197 800€) nell'ambito dell'azione Research Innovation Staff Exchange. Pan-genome Graph Algorithms and Data Integration (PANGAIA). In questo progetto, con coordinatore del progetto interno al mio laboratorio di ricerca, sono stato fra i principali estensori della proposta e sono il **responsabile del WP5** Communication and Dissemination. Il progetto prevede la collaborazione fra 7 istituzioni beneficiarie (4 Università, 1 ente di ricerca e 2 aziende) di 6 nazioni europee e 4 partner in USA, Canada e Giappone.
 
 2021-2024
 : H2020-MSCA-ITN  (importo Univ. Milano-Bicocca 261499,68€) nell'ambito dell'azione Innovative Training Network.
@@ -62,7 +62,8 @@ ALgorithms for PAngenome Computational Analysis (ALPACA). In questo progetto ho 
 
 2013-2016
 : Fondazione Cariplo 2013
-Modulation of anti-cancer immune response by regulatory non-coding RNAs. Responsabile del WP bioinformatico.
+Modulation of anti-cancer immune response by regulatory non-coding RNAs. Sono stato **responsabile del WP bioinformatico**.
+Il progetto prevedeva due unità: l'Istituto Nazionale di Genetica Molecolare e l'Univ. Milano-Bicocca.
  Il progetto mi ha portato ad essere
  	**responsabile Scientifico di due assegni di ricerca** annuali e ho co-supervisionato le attività di un terzo assegno di ricerca annuale.
 
@@ -205,7 +206,7 @@ Corsi di dottorato di ricerca
 -------------------------------
 
 2016, 2018, 2020
-: "Advanced Algoriths", Dottorato di Ricerca in Informatica, Univ. Milano-Bicocca (20 ore). In questo caso ho dovuto progettare completamente l'insegnamento che non era mai stato erogato in precedenza.
+: "Advanced Algorithms", Dottorato di Ricerca in Informatica, Univ. Milano-Bicocca (20 ore). In questo caso ho dovuto progettare completamente l'insegnamento che non era mai stato erogato in precedenza.
 
 Titolarità di Insegnamenti in Corsi di Studio
 --------------------------
@@ -452,10 +453,8 @@ and Technology, Theoretical Computer Science, Theory of Computing Systems.
 Relazioni a convegni
 --------------------
 
-Ho presentato i risultati della mia attività di ricerca a diverse conferenze. In particolare:
+Ho presentato i risultati della mia attività di ricerca a diverse conferenze tra cui, in qualità di  **invited speaker** della sessione speciale "Algorithmics for Biology", alla conferenza Computability in Europe 2017, e, in qualità di primo autore (e unico autore del mio Ateneo), alla conferenza internazionale Intelligent Systems for Molecular Biology (ISMB) 2001: si tratta della principale conferenza in Bioinformatica (**CORE: A, Microsoft Academic: A+**).
 
-*  Sono stato relatore alla conferenza internazionale Intelligent Systems for Molecular Biology (ISMB) 2001: si tratta della principale conferenza in Bioinformatica (**CORE: A, Microsoft Academic: A+**). Ho presentato un lavoro in cui ero l'unico autore del mio Ateneo.
-*  Sono stato **invited speaker** della sessione speciale "Algorithmics for Biology" della conferenza Computability in Europe 2017.
 
 Terza Missione
 ==============
@@ -476,8 +475,738 @@ Pubblicazioni
 Articoli in riviste internazionali
 -----------------------------------
 
+
+1.  Paola Bonizzoni, Gianluca Della Vedova, Yuri Pirola, Marco Previtali, Raffaella Rizzi
+**Computing the multi-string BWT and LCP array in external memory**,
+Theoretical Computer Science (2020)
+
+1.  Simone Ciccolella, Camir Ricketts, Mauricio Soto Gomez, Murray Patterson, Dana Silverbush, Paola Bonizzoni, Iman Hajirasouliha, Gianluca Della Vedova
+**Inferring cancer progression from Single-Cell Sequencing while allowing mutation losses**
+Bioinformatics (2020)
+
+1.  Luca Denti, Yuri Pirola, Marco Previtali, Tamara Ceccato, Gianluca Della Vedova, Raffaella Rizzi, Paola Bonizzoni
+**Shark: fishing relevant reads in an RNA-Seq sample**
+Bioinformatics (2020)
+
+2.  Simone Ciccolella,
+               Mauricio Soto Gomez,
+               Murray D. Patterson,
+               Gianluca Della Vedova,
+               Iman Hajirasouliha,
+               Paola Bonizzoni.
+  **gpps: an ILP-based approach for inferring cancer progression with
+               mutation losses from single cell data.**
+  BMC Bioinformatics.,
+  21-S(1):413,
+  (2020).
+
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Yuri Pirola,
+               Marco Previtali,
+               Raffaella Rizzi.
+  **Multithread Multistring Burrows-Wheeler Transform and Longest Common
+               Prefix Array.**
+  Journal of Computational Biology,
+  26(9):948--961
+  (2019).
+
+1.  Raffaella Rizzi,
+               Stefano Beretta,
+               Murray Patterson,
+               Yuri Pirola,
+               Marco Previtali,
+               Gianluca Della Vedova,
+               Paola Bonizzoni.
+  **Overlap graphs and de Bruijn graphs: data structures for de novo genome
+               assembly in the big data era.**
+  Quantitative Biology,
+  7(4):278--292
+  (2019).
+
+1.  Paola Bonizzoni,
+               Simone Ciccolella,
+               Gianluca Della Vedova,
+               Mauricio Soto.
+  **Does Relaxing the Infinite Sites Assumption Give Better Tumor Phylogenies?
+               An ILP-Based Comparative Approach.**
+  IEEE-ACM Transactions on Computational Biology  and Bioinformatics,
+  16(5):1410--1423
+  (2019).
+
+
+1.  Stefano Beretta,
+               Murray Patterson,
+               Simone Zaccaria,
+               Gianluca Della Vedova,
+               Paola Bonizzoni.
+  **HapCHAT: adaptive haplotype assembly for efficiently leveraging high
+               coverage in long reads.**
+  BMC Bioinformatics,
+  19(1):252:1--252:19
+  (2018).
+
+1.  Luca Denti and
+               Raffaella Rizzi,
+               Stefano Beretta,
+               Gianluca Della Vedova,
+               Marco Previtali and
+               Paola Bonizzoni.
+  **ASGAL: aligning RNA-Seq data to a splicing graph to detect novel
+               alternative splicing events**
+  BMC Bioinformatics,
+  19(1):444:1--444:21
+  (2018).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Yuri Pirola,
+               Marco Previtali and
+               Raffaella Rizzi
+  **An External-Memory Algorithm for String Graph Construction.**
+  Algorithmica,
+  78(2):394--424
+  (2017).
+
+1.  Paola Bonizzoni,
+               Anna Paola Carrieri,
+               Gianluca Della Vedova,
+               Raffaella Rizzi,
+               Gabriella Trucco
+  **Species-Driven Persistent Phylogeny.**
+  Fundamenta Informaticae,
+  154(1-4):47--63
+  (2017).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Yuri Pirola,
+               Marco Previtali and
+               Raffaella Rizzi
+  **FSG: Fast String Graph Construction for De Novo Assembly.**
+  Journal of Computational Biology,
+  24(10):953--968
+  (2017).
+
+
+1.  Paola Bonizzoni,
+               Anna Paola Carrieri,
+               Gianluca Della Vedova,
+               Raffaella Rizzi,
+               Gabriella Trucco
+  **A colored graph approach to perfect phylogeny with persistent characters.**
+  Theoretical Computer Science,
+  658:60--73
+  (2017).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Yuri Pirola,
+               Marco Previtali,
+               Raffaella Rizzi
+  **LSG: An External-Memory Tool to Compute String Graphs for Next-Generation
+               Sequencing Data Assembly.**
+  Journal of Computational Biology,
+  23(3):137--149
+  (2016).
+
+1.  Jon C. Ison,
+               Kristoffer Rapacki, Hervé Ménager, Matús Kalas
+               Emil Rydza,
+               Piotr Chmura,
+               Christian Anthon,
+               Niall Beard,
+               Karel Berka,
+               Dan M. Bolser,
+               Tim Booth,
+               Anthony Bretaudeau,
+               Jan Brezovsky,
+               Rita Casadio,
+               Gianni Cesareni,
+               Frederik Coppens,
+               Michael Cornell,
+               Gianmauro Cuccuru,
+               Kristian Davidsen,
+               Gianluca Della Vedova,
+               Tunca Dogan,
+               Olivia Doppelt-Azeroual,
+               Laura Emery,
+               Elisabeth Gasteiger,
+               Thomas Gatter,
+               Tatyana Goldberg,
+               Marie Grosjean,
+               Björn A. Grüning,
+               Manuela Helmer-Citterich,
+               Hans Ienasescu,
+               Vassilios Ioannidis,
+               Martin Closter Jespersen,
+               Rafael C. Jimenez,
+               Nick S. Juty,
+               Peter Juvan,
+               Maximilian Koch,
+               Camille Laibe,
+               Jing-Woei Li,
+               Luana Licata,
+               Fabien Mareuil,
+               Ivan Micetic,
+               Rune Møllegaard Friborg,
+               Sébastien Moretti,
+              Chris Morris, Steffen Möller, Aleksandra Nenadic, Hedi Peterson, Giuseppe Profiti, Peter M. Rice, Paolo Romano, Paola Roncaglia, Rabie Saidi, Andrea Schafferhans, Veit Schwämmle, Callum Smith, Maria Maddalena Sperotto, Heinz Stockinger, Radka Svobodová Vareková, Silvio C. E. Tosatto, Victor de la Torre, Paolo Uva, Allegra Via, Guy Yachdav, Federico Zambelli, Gert Vriend, Burkhard Rost, Helen E. Parkinson, Peter Løngreen, Søren Brunak.
+  **Tools and data services registry: a community effort to document bioinformatics
+               resources.**
+  Nucleic Acids Research,
+  44(Database-Issue):38--47
+  (2016).
+
+1.  Stefano Beretta,
+               Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Yuri Pirola,
+               Raffaella Rizzi
+  **Modeling Alternative Splicing Variants from RNA-Seq Data with Isoform
+               Graphs.**
+  Journal of Computational Biology,
+  21(1):16--40
+  (2014).
+
+1.  Paola Bonizzoni, Anna Paola Carrieri,
+  Gianluca Della Vedova, Gabriella Trucco
+  **Explaining evolution via constrained persistent perfect phylogeny.**.
+  BMC Genomics 15:S10 (2014).
+
+3.  Corrao, G., Ghirardi, A., Segafredo, G., Zambon, A., Della Vedova, G., Lapi, F., Cipriani, F., Caputi, A., Vaccheri, A., Gregori, D., Gesuita, R., Vestri, A., Staniscia, T., Mazzaglia, G., Di Bari, M.
+**User-only design to assess drug effectiveness in clinical practice: Application to bisphosphonates and secondary prevention of fractures**  Pharmacoepidemiology and Drug Safety 23(8):859-867 (2014).
+
+1.  Arianna Ghirardi, Mauro Di Bari, Antonella Zambon, Lorenza Scotti, Gianluca Della Vedova, Francesco Lapi, Francesco Cipriani, Achille P. Caputi, Alberto Vaccheri, Dario Gregori, Rosaria Gesuita, Annarita Vestri, Tommaso Staniscia, Giampiero Mazzaglia, Giovanni Corrao.
+   **Effectiveness of oral bisphosphonates for primary prevention of osteoporotic fractures.**
+   European  Journal of Clinical Pharmacology 70:1129–1137 (2014).
+
+1.  Arianna Ghirardi, Lorenza Scotti, Gianluca Della Vedova, Luca Cavalieri D'Oro, Francesco Lapi, Francesco Cipriani, Achille P Caputi, Alberto Vaccheri, Dario Gregori, Rosaria Gesuita, Annarita Vestri, Tommaso Staniscia, Giampiero Mazzaglia, Giovanni Corrao
+   **Oral bisphosphonates do not increase the risk of severe upper gastrointestinal complications: a nested case-control study.**
+   BMC Gastroenterology 14:5 (2014).
+
+
+2.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi and
+               Yuri Pirola
+  **Parameterized complexity of k-anonymity: hardness, tractability.**
+  Journal of Combinatorial Optimization,
+  26(1):19--43
+  (2013).
+
+1.  Arianna Ghirardi,
+    Lorenza Scotti,
+    Antonella Zambon,
+    Gianluca Della Vedova,
+    Luca Cavalieri D'oro,
+    Francesco Lapi,
+    Francesco Cipriani,
+    Achille P. Caputi,
+    Alberto Vaccheri,
+    Dario Gregori,
+    Rosaria Gesuita,
+    Annarita Vestri,
+    Tommaso Staniscia,
+    Giampiero Mazzaglia,
+    Giovanni Corrao
+    **Risk of Severe Upper Gastrointestinal Complications among Oral Bisphosphonate Users**
+PLOS One (2013)
+
+1.  Yuri Pirola,
+               Raffaella Rizzi,
+               Ernesto Picardi,
+               Graziano Pesole,
+               Gianluca Della Vedova,
+               Paola Bonizzoni
+  **PIntron: a fast method for detecting the gene structure due to alternative
+               splicing via maximal pairings of a pattern and a text.**
+  BMC Bioinformatics,
+  13(S-5):S2
+  (2012).
+
+1.  Yuri Pirola,
+               Gianluca Della Vedova,
+               Stefano Biffani,
+               Alessandra Stella,
+               Paola Bonizzoni
+  **A Fast and Practical Approach to Genotype Phasing and Imputation on
+               a Pedigree with Erroneous and Incomplete Information.**
+  IEEE-ACM Transactions on Computational Biology  and Bioinformatics,
+  9(6):1582--1594
+  (2012).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi
+  **A randomized PTAS for the minimum Consensus Clustering with a fixed
+               number of clusters.**
+  Theoretical Computer Science,
+  429:36--45
+  (2012).
+
+1.  Paul M. Ruegger,
+               Gianluca Della Vedova,
+               Tao Jiang,
+               James Borneman
+  **Improving Probe Set Selection for Microbial Community Analysis by
+               Leveraging Taxonomic Information of Training Sequences.**
+  BMC Bioinformatics
+  12:394,
+  (2011).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi
+  **Anonymizing binary and small tables is hard to approximate
+  Journal of Combinatorial Optimization.**
+  22(1):97--119
+  (2011).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi and
+               Giancarlo Mauri
+  **Fingerprint Clustering with Bounded Number of Missing Values.**
+  Algorithmica,
+  58(2):282--303
+  (2010).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi and
+               Yuri Pirola
+  **Variants of constrained longest common subsequence.**
+  Information Processing Letters,
+  110(20):877--881
+  (2010).
+
+1.  Gianluca Della Vedova,
+               Riccardo Dondi,
+               Tao Jiang,
+               Giulio Pavesi,
+               Yuri Pirola,
+               Lusheng Wang
+  **Beyond evolutionary trees.**
+  Natural Computing,
+  9(2):421--435
+  (2010).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Yuri Pirola,
+               Romeo Rizzi
+  **Pure Parsimony Xor Haplotyping.**
+  IEEE-ACM Transactions on Computational Biology  and Bioinformatics,
+  7(4):598--610
+  (2010).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Tao Jiang
+  **On the Approximation of Correlation Clustering and Consensus Clustering.**
+  Journal of Computer and System Sciences
+  74(5):671--696
+  (2008).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Guillaume Fertin,
+               Raffaella Rizzi,
+               Stèphane Vialette
+  **Exemplar Longest Common Subsequence.**
+  IEEE-ACM Transactions on Computational Biology  and Bioinformatics,
+  4(4):535--543
+  (2007).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Lorenzo Mariani
+  **Experimental analysis of a new algorithm for partial haplotype completion.**
+  International Journal of Bioinformatics Resources and Applications.
+  1(4):461--473
+  (2005).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi
+  **Reconciling a gene tree to a species tree under the duplication cost
+               model.**
+  Theoretical Computer Science
+  347(1-2):36--53
+  (2005).
+
+1.  Winfried Just,
+               Gianluca Della Vedova
+  **Multiple Sequence Alignment as a Facility-Location Problem.**
+  INFORMS Journal of Computing
+  16(4):430--440
+  (2004).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Tao Jiang
+  **Foreword - Special Issue on Bioinformatics.**
+  Journal of Computer Science and Technology
+  19(1):1
+  (2004).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Jing Li
+  **The Haplotyping Problem: An Overview of Computational Models and Solutions.**
+  Journal of Computer Science and Technology
+  18(6):675--688
+  (2003).
+
+1.  Gianluca Della Vedova,
+               Todd Wareham
+  **Optimal algorithms for local vertex quartet cleaning.**
+  Bioinformatics
+  18(10):1297--1304
+  (2002).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova
+  **The complexity of multiple sequence alignment with SP-score that is
+               a metric.**
+  Theoretical Computer Science
+  259(1-2):63--79
+  (2001).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Giancarlo Mauri
+  **Experimenting an approximation algorithm for the LCS.**
+  Discrete  Applied Mathematics
+  110(1):13--24 (2001)
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Giancarlo Mauri
+  **Approximating the Maximum Isomorphic Agreement Subtree is Hard.**
+  International Journal on the Foundations of Computer Science
+  11(4):579--590
+  (2000).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova
+  **An Algorithm for the Modular Decomposition of Hypergraphs.**
+  Journal of Algorithms
+  32(2):65--86
+  (1999).
+
+
 Articoli in atti di convegno internazionali
 -------------------------------------------
+
+
+1.  Simone Ciccolella,
+               Murray D. Patterson,
+               Paola Bonizzoni,
+               Gianluca Della Vedova
+  **Effective Clustering for Single Cell Sequencing Cancer Data.**
+Proceedings of the 10th ACM International Conference on Bioinformatics,
+               Computational Biology and Health Informatics, BCB 2019, Niagara
+               Falls, NY, USA, September 7-10, 2019:437--446
+  (2019).
+
+1.  Giulia Bernardini,
+               Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Murray Patterson
+  **A Rearrangement Distance for Fully-Labelled Trees.**
+30th Annual Symposium on Combinatorial Pattern Matching, CPM 2019,
+               June 18-20, 2019, Pisa, Italy:28:1--28:15
+  (2019).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Serena Nicosia,
+               Yuri Pirola,
+               Marco Previtali,
+               Raffaella Rizzi
+  **Divide and Conquer Computation of the Multi-string BWT and LCP
+               Array.**
+Sailing Routes in the World of Computation - 14th Conference on Computability
+               in Europe, CiE 2018, Kiel, Germany, July 30 - August 3, 2018, Proceedings:107--117
+  (2018).
+
+1.  Simone Ciccolella,
+               Mauricio Soto Gomez,
+               Murray Patterson,
+               Gianluca Della Vedova,
+               Iman Hajirasouliha,
+               Paola Bonizzoni
+  **gpps: an ILP-based approach for inferring cancer progression with
+               mutation losses from single cell data.**
+8th IEEE International Conference on Computational Advances in Bio
+               and Medical Sciences, ICCABS 2018, Las Vegas, NV, USA, October 18-20:1
+  (2018).
+
+1.  Paola Bonizzoni,
+               Simone Ciccolella,
+               Gianluca Della Vedova,
+               Mauricio Soto Gomez
+  **Beyond Perfect Phylogeny: Multisample Phylogeny Reconstruction via
+               ILP.**
+Proceedings of the 8th ACM International Conference on Bioinformatics,
+               Computational Biology, and Health Informatics, BCB 2017, Boston,
+               MA, USA, August 20-23, 2017:1--10
+  (2017).
+
+1.  Gianluca Della Vedova,
+               Murray Patterson,
+               Raffaella Rizzi,
+               Mauricio Soto Gomez
+  **Character-Based Phylogeny Construction and Its Application to Tumor
+               Evolution.**
+Unveiling Dynamics and Complexity - 13th Conference on Computability
+               in Europe, CiE 2017, Turku, Finland, June 12-16, 2017, Proceedings:3--13
+  (2017).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Yuri Pirola,
+               Marco Previtali,
+               Raffaella Rizzi
+  **FSG: Fast String Graph Construction for De Novo Assembly of Reads
+               Data.**
+Bioinformatics Research and Applications - 12th International Symposium,
+               ISBRA 2016, Minsk, Belarus, June 5-8, 2016, Proceedings:27--39
+  (2016).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Yuri Pirola,
+               Marco Previtali,
+               Raffaella Rizzi
+  **Constructing String Graphs in External Memory.**
+Algorithms in Bioinformatics - 14th International Workshop, WABI
+               2014, Wroclaw, Poland, September 8-10, 2014. Proceedings:311--325
+  (2014).
+
+1.  Yuri Pirola,
+               Gianluca Della Vedova,
+               Paola Bonizzoni,
+               Alessandra Stella,
+               Filippo Biscarini
+  **Haplotype-based prediction of gene alleles using pedigrees and SNP
+               genotypes.**
+ACM Conference on Bioinformatics, Computational Biology and Biomedical
+               Informatics. ACM-BCB 2013, Washington, DC, USA, September 22-25:33
+  (2013).
+
+1.  Stefano Beretta,
+               Paola Bonizzoni,
+               Raffaella Rizzi,
+               Gianluca Della Vedova
+  **Reconstructing isoform graphs from RNA-Seq data.**
+2012 IEEE International Conference on Bioinformatics, Biomedicine,
+               BIBM 2012, Philadelphia, PA, USA, October 4-7:1--4
+  (2012).
+
+1.  Yuri Pirola,
+               Gianluca Della Vedova,
+               Stefano Biffani,
+               Alessandra Stella,
+               Paola Bonizzoni
+  **A fast and practical approach to genotype phasing and imputation on
+               a pedigree with erroneous and incomplete information.**
+IEEE 2nd International Conference on Computational Advances in Bio
+               and Medical Sciences, ICCABS 2012, Las Vegas, NV, USA, February
+               23-25:1--6
+  (2012).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Yuri Pirola,
+               Raffaella Rizzi
+  **PIntron: A fast method for gene structure prediction via maximal
+               pairings of a pattern and a text.**
+IEEE 1st International Conference on Computational Advances in Bio
+               and Medical Sciences, ICCABS 2011, Orlando, FL, USA, February 3-5:33--39
+  (2011).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Yuri Pirola
+  **Parameterized Complexity of $k$-Anonymity: Hardness and Tractability.**
+Combinatorial Algorithms - 21st International Workshop, IWOCA 2010,
+               London, UK, July 26-28, 2010, Revised Selected Papers:242--255
+  (2010).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi
+  **The $k$-Anonymity Problem Is Hard.**
+Fundamentals of Computation Theory, 17th International Symposium,
+               FCT 2009, Wroclaw, Poland, September 2-4, 2009. Proceedings:26--37
+  (2009).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi
+  **A PTAS for the Minimum Consensus Clustering Problem with a Fixed
+               Number of Clusters.**
+Theoretical Computer Science, 11th Italian Conference, ICTCS 2009,
+               Cremona, Italy, September 28-30, 2009, Proceedings:55--58
+  (2009).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Yuri Pirola,
+               Romeo Rizzi
+  **Pure Parsimony Xor Haplotyping.**
+Bioinformatics Research and Applications, 5th International Symposium,
+               ISBRA 2009, Fort Lauderdale, FL, USA, May 13-16, 2009, Proceedings:186--197
+  (2009).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Yuri Pirola,
+               Raffaella Rizzi
+  **Minimum Factorization Agreement of Spliced ESTs.**
+Algorithms in Bioinformatics, 9th International Workshop, WABI 2009,
+               Philadelphia, PA, USA, September 12-13, 2009. Proceedings:1--12
+  (2009).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Giancarlo Mauri
+  **Fingerprint Clustering with Bounded Number of Missing Values.**
+Combinatorial Pattern Matching, 17th Annual Symposium, CPM 2006,
+               Barcelona, Spain, July 5-7, 2006, Proceedings:106--116
+  (2006).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Guillaume Fertin,
+               Stèphane Vialette
+  **Exemplar Longest Common Subsequence.**
+Computational Science - ICCS 2006, 6th International Conference,
+               Reading, UK, May 28-31, 2006, Proceedings, Part II:622--629
+  (2006).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Lorenzo Mariani
+  **Experimental Analysis of a New Algorithm for Partial Haplotype Completion.**
+Computational Science - ICCS 2005, 5th International Conference,
+               Atlanta, GA, USA, May 22-25, 2005, Proceedings, Part II:952--959
+  (2005).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi,
+               Tao Jiang
+  **Correlation Clustering and Consensus Clustering.**
+Algorithms and Computation, 16th International Symposium, ISAAC
+               2005, Sanya, Hainan, China, December 19-21, 2005, Proceedings:226--235
+  (2005).
+
+1.  Sergio Pozzi,
+               Gianluca Della Vedova,
+               Giancarlo Mauri
+  **An Explicit Upper Bound for the Approximation Ratio of the Maximum
+               Gene Regulatory Network Problem.**
+Computational Methods in Systems Biology, International Conference,
+               CMSB 2004, Paris, France, May 26-28, 2004, Revised Selected Papers:1--8
+  (2004).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Riccardo Dondi
+  **Reconciling Gene Trees to a Species Tree.**
+Algorithms and Complexity, 5th Italian Conference, CIAC 2003, Rome,
+               Italy, May 28-30, 2003, Proceedings:120--131
+  (2003).
+
+1.  Gianluca Della Vedova,
+               Todd Wareham
+  **Optimal algorithms for local vertex quartet cleaning.**
+Proceedings of the 2002 ACM Symposium on Applied Computing (SAC),
+               March 10-14, 2002, Madrid, Spain:173--177
+  (2002).
+
+1.  Gianluca Della Vedova,
+               Tao Jiang,
+               Jing Li,
+               Jianjun Wen
+  **Approximating minimum quartet inconsistency (abstract).**
+Proceedings of the Thirteenth Annual ACM-SIAM Symposium on Discrete
+               Algorithms, January 6-8, 2002, San Francisco, CA, USA:894--895
+  (2002).
+
+1.  James Borneman,
+               Marek Chrobak,
+               Gianluca Della Vedova,
+               Andres Figueroa,
+               Tao Jiang
+  **Probe selection algorithms with applications in the analysis of microbial
+               communities.**
+Proceedings of the Ninth International Conference on Intelligent Systems
+               for Molecular Biology, July 21-25, 2001, Copenhagen, Denmark:39--48  (2001).
+
+1.  Paolo Barone,
+               Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Giancarlo Mauri
+  **An approximation algorithm for the shortest common supersequence problem:
+               an experimental analysis.**
+Proceedings of the 2001 ACM Symposium on Applied Computing (SAC),
+               March 11-14, 2001, Las Vegas, NV, USA:56--60
+  (2001).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova,
+               Giancarlo Mauri
+  **Approximating the Maximum Isomorphic Agreement Subtree Is Hard.**
+Combinatorial Pattern Matching, 11th Annual Symposium, CPM 2000,
+               Montreal, Canada, June 21-23, 2000, Proceedings:119--128
+  (2000).
+
+1.  Winfried Just,
+               Gianluca Della Vedova
+  **Multiple Sequence Alignment as a Facility Location Problem.**
+Proceedings of the Prague Stringology Club Workshop 2000, Prague,
+               Czech Republic, September 2, 2000:60--70
+  (2000).
+
+1.  Paola Bonizzoni,
+               Gianluca Della Vedova
+  **Modular Decomposition of Hypergraphs.**
+Graph-Theoretic Concepts in Computer Science, 21st International Workshop,
+               WG '95, Aachen, Germany, June 20-22, 1995, Proceedings:303--317
+  (1995).
+
+
+Capitoli di libro
+-----------------
+
+
+1.  Bonizzoni P., Vedova G.D., Pesole G., Picardi E., Pirola Y., Rizzi R.
+  **Transcriptome Assembly and Alternative Splicing Analysis**. In: Picardi E. (eds) RNA Bioinformatics. Methods in Molecular Biology, vol 1269. Humana Press, New York, NY.
+
+
+1.  Paola Bonizzoni,
+Anna Paola Carrieri,
+Gianluca Della Vedova,
+ Riccardo Dondi,
+Teresa M. Przytycka,
+**When and How the Perfect Phylogeny Model Explains Evolution** In
+Discrete and Topological Models in Molecular Biology, pp. 67--83, Springer Berlin Heidelberg (2014).
 
 ----
 
