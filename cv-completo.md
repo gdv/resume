@@ -361,6 +361,9 @@ Servizi per l'Ateneo
 : **Responsabile** per l'Università degli Studi di Milano-Bicocca della Convenzione quadro con l'Istituto Nazionale di Genetica Molecolare.
 
 2020-oggi
+:  **Membro del Comitato Scientifico** di Bicocca Ambiente Società Economia, in seguito a nomina rettorale.
+
+2020-oggi
 :  **Membro del Comitato Scientifico** del Master di secondo livello "qOmics: quantitative methods for Omics Data", Univ. di Milano-Bicocca e Univ. di Pavia.
 
 2018-oggi
@@ -368,6 +371,9 @@ Servizi per l'Ateneo
 
 2013-oggi
 :  Membro del collegio docenti del Dottorato di Ricerca in Informatica, Univ. Milano - Bicocca
+
+2011-oggi
+:  **Membro del Comitato direttivo** del Centro di Produzione Multimediale di Ateneo, su nomina del Senato Accademico.
 
 2015-2020
 :  Coordinatore Tecnico Locale per l'Univ. Milano-Bicocca delle attività inerenti Elixir IIB
