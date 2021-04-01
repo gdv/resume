@@ -1,23 +1,22 @@
-SOURCES := $(wildcard *.md)
-PDF = $(SOURCES:%.md=%.pdf)
-HTML = $(SOURCES:%.md=%.html)
-all: $(PDF) $(HTML)
+SOURCES := $(wildcard cv-*.tex)
+PDF = $(SOURCES:%.tex=%.pdf)
+all: $(PDF) 
 
-%.pdf: %.tex
-	context $<
+BIBS = inbook article proceedings
+BIBFILES = $(BIBS:%=%.bib)
 
-%.tex: %.md
-	pandoc --standalone --template style_chmduquesne.tex \
-	--from markdown --to context -V papersize=A4 -o $@ $<
-
-%.html: %.md
-	pandoc --standalone -H style_chmduquesne.css --from markdown --to html -o $@ $<
-
+%.pdf: %.tex $(BIBFILES)
+	latexmk $<
 
 clean:
 	rm -f $(PDF) $(HTML) *.log *.aux *.tex *.tuc
 
-.PHONY: clean
+article.bib: gdv.bib
+	bibtool -- select{@article} gdv.bib -o $@
 
-pubblicazioni.pdf: pubblicazioni.tex references.bib
-	latexmk -pdf pubblicazioni
+conference.bib: gdv.bib
+	bibtool -- select{@conference} gdv.bib -o $@
+
+inbook.bib: gdv.bib
+	bibtool -- select{@inbook} gdv.bib -o $@
+.PHONY: clean
