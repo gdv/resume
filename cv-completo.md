@@ -3,11 +3,11 @@ DELLA VEDOVA GIANLUCA  -- CV
 
 ----
 
->  Professore Associato-Confermato (SSD INF/01 - Informatica)
+> Professore Associato-Confermato (SSD INF/01 - Informatica)
 >
->  Dipartimento di Informatica, Sistemistica e Comunicazione
+> Dipartimento di Informatica, Sistemistica e Comunicazione
 >
->  Università degli Studi di Milano-Bicocca
+> Università degli Studi di Milano-Bicocca
 
 ----
 
@@ -22,7 +22,6 @@ Ruoli
 
 05/2001-09/2005
 :    Ricercatore, Facoltà di Scienze Statistiche, Università degli Studi di Milano–Bicocca.
-
 
 Abilitazione
 ------------
