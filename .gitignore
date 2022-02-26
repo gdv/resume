@@ -2,8 +2,16 @@
 *.log
 *.pdf
 *.html
-resume.tex
 *.swo
 *.swp
 *.docx
 *.rtf
+article.*
+inbook.*
+conference.*
+*.out
+*.fls
+*.xdv
+*.aux
+*.fdb_latexmk
+*.synctex.gz
