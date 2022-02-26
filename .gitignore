@@ -1,5 +1,6 @@
 *.tuc
 *.log
+*.blg
 *.pdf
 *.html
 *.swo
