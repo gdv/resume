@@ -1,15 +1,13 @@
 *.tuc
 *.log
 *.blg
+*.bbl
 *.pdf
 *.html
 *.swo
 *.swp
 *.docx
 *.rtf
-article.*
-inbook.*
-conference.*
 *.out
 *.fls
 *.xdv
