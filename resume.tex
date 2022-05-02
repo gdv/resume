@@ -1,11 +1,8 @@
 \documentclass[11pt,a4paper,roman]{moderncv}
-% moderncv themes
-\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
-
-\usepackage[utf8]{inputenc}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+%\renewcommand{\familydefault}{\rmdefault}
+%\nopagenumbers{}
 \usepackage{verbatim}
 
 
@@ -14,12 +11,32 @@
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
+
+% font loading
+% for luatex and xetex, do not use inputenc and fontenc
+% see https://tex.stackexchange.com/a/496643
+\ifxetexorluatex%
+  \usepackage{fontspec}
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX}
+  \setmainfont{Latin Modern Roman}
+  \setsansfont{Latin Modern Sans}
+  \setmonofont{Latin Modern Mono}
+  \setmathfont{Latin Modern Math}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\fi
+
 % personal data
 \name{Gianluca}{Della Vedova}
 \email{gianluca.dellavedova@unimib.it}
 \homepage{https://www.unimib.it/gianluca-della-vedova}
 \social[github]{gdv}
-%\quote{Some quote no}                                 % optional, remove / comment the line if not wanted
+\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{google-scholar}}
+\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=0gaIFokAAAAJ}{
+Gianluca Della Vedova}}%\quote{Some quote no}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 \makeatletter
@@ -70,11 +87,9 @@ articles},{Conference proceedings}, {Preprints}}
   Milano}{}{Thesis: ``Multiple Sequence Alignment and Phylogenetic Reconstruction:
   Theory and Methods in Biological Data Analysis''}{}
 
-  \cventry{1990--1995}{}{M.Sc. in Computer Science}{Università degli Studi di Milano}{}{Thesis: ``Sequential and Parallel Algorithms for Graph Decomposition''}{}  %
+  \cventry{1990--1995}{}{M.Sc. in Computer Science}{Università degli Studi di Milano}{}{Thesis: ``Sequential and Parallel Algorithms for Graph Decomposition''}{}
 
 \section{Funding}
-
-
 \subsection{Leading}
 
 
@@ -141,7 +156,7 @@ articles},{Conference proceedings}, {Preprints}}
   Statistico-Territoriale --- Virtual Statistical--Territorial Laboratory.
   This was a joint project between the Dept. of Statistics and the Dept. of
   Sociology. It has resulted in the acquisition of 2 servers that are used to
-  provide services to research and teaching activites on territorial sociology
+  provide services to research and teaching activities on territorial sociology
   and computational statistics.
   \textbf{co-PI}.
   }
@@ -183,7 +198,7 @@ From 2016 to 2019 I have been the leader of the Research Lab
 ``AlgoLab --- Experimental Algorithmics Lab'', at the Università di Milano -- Bicocca.
 The research lab has several international collaborations and it focuses on algorithm design, implementation, and experimental analysis on large datasets. In fact, the research activities regards both methodological and experimental aspects, leading to the development of software tools to attack bioinformatics problems.
 
-My personal research activity has focused on the development of combinatorial algorithms in Bioinformatics, with a strong attention on foundational aspects, such as the formal properties of computational problems. Moreover, I have paid special attention to algorithm implementation and on validation, from both a theoretical and an experimental point of view.
+My personal research activity has focused on the development of combinatorial algorithms in Bioinformatics, with a strong attention on foundational aspects, such as the formal properties of computational problems. Moreover, I have paid special attention to algorithm implementation and validation, from both a theoretical and an experimental point of view.
 
 
 \subsection{Research interests}
@@ -200,7 +215,7 @@ determining the interaction among the various DNA sites are among the
 most important open problems. The huge quantity of data that has to be
 analyzed (remember that human DNA contains 3 billions nucleotides) makes
 computers and efficient algorithms a needed cornerstone of the field.
-The candidate's research has been mainly devoted to the design of such
+My research has been mainly devoted to the design of such
 efficient algorithms and can be detailed in a few subfield.
 
 \subsection{Sequence comparison}\label{sequence-comparison}
@@ -218,6 +233,9 @@ different notions of sequence comparison, related to the classical
 notion of longest common subsequence and shortest common supersequence.
 Those two combinatorial problems have found new applications in
 Molecular Biology.
+
+\textbf{Journal
+papers}:~\cite{baaijensComputationalGraphPangenomics2022,DBLP:journals/ipl/BonizzoniVDP10,DBLP:journals/tcbb/BonizzoniVDFRV07,DBLP:journals/informs/JustV04,DBLP:journals/dam/BonizzoniVM01,DBLP:journals/tcs/BonizzoniV01}
 
 \subsection{Phylogeny reconstruction and
 comparison}\label{phylogeny-reconstruction-and-comparison}
@@ -244,6 +262,9 @@ computed on different genes over the same species set, designing some
 efficient algorithms and solving a problem left open in (Ma, Li e Zhang,
 SIAM J. Comp. 2000).
 
+\textbf{Journal
+papers}:~\cite{DBLP:journals/jcb/AliCLVP21,DBLP:journals/bioinformatics/CiccolellaRGPSB21,DBLP:journals/bioinformatics/CiccolellaBDBPV21,DBLP:journals/bmcbi/CiccolellaGPVHB20,DBLP:journals/tcbb/BonizzoniCVS19,DBLP:journals/tcs/BonizzoniCVRT17,DBLP:journals/fuin/BonizzoniCVRT17,bonizzoniExplainingEvolutionConstrained2014,DBLP:journals/tcs/BonizzoniVD05,DBLP:journals/bioinformatics/VedovaW02,DBLP:journals/ijfcs/BonizzoniVM00}
+
 \subsection{DNA microarray design}\label{dna-microarray-design}
 
 The introduction of DNA microarray have greatly increased the throughput
@@ -261,6 +282,9 @@ candidate has proposed, implemented and analyzed some algorithms, while
 supervising the use of the implementation on some biological data that
 were previously impossible to analyze. This effort has led to a new
 protocol for microbial communities analysis.
+
+\textbf{Journal
+papers}:~\cite{DBLP:journals/bmcbi/RueggerVJB11,  valinskyAnalysisBacterialCommunity2002,valinskyOligonucleotideFingerprintingRRNA2002,bornemanProbeSelectionAlgorithms2001}
 
 \subsection{Haplotyping}\label{haplotyping}
 
@@ -288,6 +312,8 @@ that can be obtained with a recent and economically viable technology.
 I have obtained some preliminary results on the computational complexity
 of the problem, and he has designed some efficient algorithms.
 
+\textbf{Journal papers}:~\cite{ciccolellaMALVIRUSIntegratedApplication2022,DBLP:journals/bmcbi/BerettaPZVB18,DBLP:journals/tcbb/PirolaVBSB12,DBLP:journals/tcbb/BonizzoniVDPR10,DBLP:journals/ijbra/BonizzoniVDM05,DBLP:journals/jcst/BonizzoniVDL03}
+
 \subsection{Graph Algorithms}\label{graph-algorithms}
 
 The second main area of research is designing efficient combinatorial
@@ -304,6 +330,9 @@ extended to 2-structures (Ehrenfeucht e Rozenberg Theor. Comp. Sci.
 1990) and k-structures (Ehrenfeucht e McConnell, Theor. Comp. Sci.
 1993). I have developed some efficient algorithms for
 computing the modular decomposition on hypergraphs and k-structures.
+
+
+\textbf{Journal papers}:~\cite{DBLP:journals/jal/BonizzoniV99}
 
 
 \subsection{Clustering}\label{clustering}
@@ -329,12 +358,34 @@ restrictions of the problem are APX-hard and designing a polynomial-time
 constant-factor approximation algorithm. Moreover, I have designed an
 efficient algorithm for a different restriction of the problem.
 
+\textbf{Journal papers}:~\cite{DBLP:journals/titb/CiccolellaPBV21,DBLP:journals/tcs/BonizzoniVD12,DBLP:journals/algorithmica/BonizzoniVDM10,DBLP:journals/jcss/BonizzoniVDJ08}
+
+\subsection{Alternative Splicing}\label{splicing}
+
+Alternative splicing is the biological mechanism that allows a gene to encode
+and produce more than one protein.
+In this field I have focused on efficient algorithms for detecting novel (that
+is not previously known) alternative splicing events.
+
+
+\textbf{Journal papers}:~\cite{DBLP:journals/bmcbi/DentiRBVPB18,DBLP:journals/jcb/BerettaBVPR14,DBLP:journals/bmcbi/PirolaRPPVB12}
+
+\subsection{Text Algorithms}\label{bwt}
+
+The sheer size of genomic data makes important to develop data structures to
+represent with a small amount of memory while querying them efficiently.
+The main such data structure is the Burrows-Wheeler Transform (BWT), and I have
+developed some algorithms to efficiently compute the BWT together with another
+auxiliary data structure (the Longest Common Prefix array) and for building the
+string graph (a data structure that represents how some strings overlap with
+each other).
+
+\textbf{Journal papers}:~\cite{DBLP:journals/tcs/BonizzoniVPPR21,DBLP:journals/jcb/BonizzoniVPPR19,DBLP:journals/quanbio/RizziBPPPVB19,DBLP:journals/algorithmica/BonizzoniVPPR17,DBLP:journals/jcb/BonizzoniVPPR17,DBLP:journals/jcb/BonizzoniVPPR16}
+
+
 \section{Teaching}
 
-
-  \subsection{Teaching activitity}
-
-  I have started teaching when I have been hired as an Assistant professor at
+I have started teaching when I have been hired as an Assistant professor at
   the School of Statistics in 2001.
   I was the first Computer Science faculty of the school, therefore I had to
   design new courses tailored to students with a good mathematical background,
@@ -556,12 +607,12 @@ PhD students:
     \cvlistitem{%
     Simone Ciccolella has spent 3 months with the research group led by
 prof. Iman Hajirasouliha (Weill Cornell Medicine, New York).
-Simone Ciccolella is currently a PhD student under my supervision.}
+Simone Ciccolella is currently a postdoc under my supervision.}
 
   \subsection{B.Sc. students supervision}
 
   I have supervised the final projects of more than 50 B.Sc. students in
-  Computer Science, Statistics, Statistical Economics.
+  Computer Science, Statistics, and Statistical Economics.
 
   \section{Service}
 
@@ -676,11 +727,11 @@ Simone Ciccolella is currently a PhD student under my supervision.}
   \subsection{Service for the Research Community}
 
 \cvitem{2023}{%
-  \textbf{Program Commitee Chair} of Computability in Europe (CiE) 2023.
+  \textbf{Program Committee Chair} of Computability in Europe (CiE) 2023.
 }
 
 \cvitem{2013-today}{%
- \textbf{Program Commitee Member} of:
+ \textbf{Program Committee Member} of:
    Computability in Europe (CiE) 2013, 2019, 2020, 2022;
   Workshop on Algorithms in Bioinformatics (WABI) 2020, 2022;
   ISCB European Conference on Computational Biology (ECCB 2019);
