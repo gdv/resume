@@ -1,3 +1,4 @@
+% !TEX program = latexmk -xelatex
 \documentclass[11pt,a4paper,roman]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
@@ -34,9 +35,9 @@
 \email{gianluca.dellavedova@unimib.it}
 \homepage{https://www.unimib.it/gianluca-della-vedova}
 \social[github]{gdv}
-\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{google-scholar}}
-\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=0gaIFokAAAAJ}{
-Gianluca Della Vedova}}%\quote{Some quote no}                                 % optional, remove / comment the line if not wanted
+\social[orcid]{0000-0001-5584-3089}
+%\social[googlescholar]{0gaIFokAAAAJ}
+
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 \makeatletter
@@ -190,8 +191,8 @@ articles},{Conference proceedings}, {Preprints}}
 \section{Research activity}
 
 
-I have published more than 50 journal papers with more than 1700
-citations and h-index 19 (from Google Scholar).
+I have published more than 50 journal papers with more than 1800
+citations and h-index 20 (from Google Scholar).
 According to Google Scholar, 7 of my papers have at least 100 citations each, and I have 166 coauthors.
 
 From 2016 to 2019 I have been the leader of the Research Lab
@@ -232,8 +233,13 @@ notion of longest common subsequence and shortest common supersequence.
 Those two combinatorial problems have found new applications in
 Molecular Biology.
 
+Most recently, I have started the investigation of the comparison of sequences
+and labeled graphs representing entire genomes (pangenome graphs).
+In this field I have focused on the development of efficient and practical
+alignment algorithms that fully exploit the topology of the graphs.
+
 \textbf{Journal
-papers}:~\cite{baaijensComputationalGraphPangenomics2022,DBLP:journals/ipl/BonizzoniVDP10,DBLP:journals/tcbb/BonizzoniVDFRV07,DBLP:journals/informs/JustV04,DBLP:journals/dam/BonizzoniVM01,DBLP:journals/tcs/BonizzoniV01}
+papers}:~\cite{baaijensComputationalGraphPangenomics2022,DBLP:journals/bioinformatics/DentiPPCVRB21,DBLP:journals/ipl/BonizzoniVDP10,DBLP:journals/tcbb/BonizzoniVDFRV07,DBLP:journals/informs/JustV04,DBLP:journals/dam/BonizzoniVM01,DBLP:journals/tcs/BonizzoniV01}
 
 \subsection{Phylogeny reconstruction and
 comparison}\label{phylogeny-reconstruction-and-comparison}
@@ -282,7 +288,7 @@ were previously impossible to analyze. This effort has led to a new
 protocol for microbial communities analysis.
 
 \textbf{Journal
-papers}:~\cite{DBLP:journals/bmcbi/RueggerVJB11,  valinskyAnalysisBacterialCommunity2002,valinskyOligonucleotideFingerprintingRRNA2002,bornemanProbeSelectionAlgorithms2001}
+papers}:~\cite{DBLP:journals/bmcbi/RueggerVJB11,valinskyAnalysisBacterialCommunity2002,valinskyOligonucleotideFingerprintingRRNA2002,bornemanProbeSelectionAlgorithms2001}
 
 \subsection{Haplotyping}\label{haplotyping}
 
@@ -356,12 +362,18 @@ restrictions of the problem are APX-hard and designing a polynomial-time
 constant-factor approximation algorithm. Moreover, I have designed an
 efficient algorithm for a different restriction of the problem.
 
-\textbf{Journal papers}:~\cite{DBLP:journals/titb/CiccolellaPBV21,DBLP:journals/tcs/BonizzoniVD12,DBLP:journals/algorithmica/BonizzoniVDM10,DBLP:journals/jcss/BonizzoniVDJ08}
+Another research topic related to Clustering is the \(k\)-anonymity problem,
+where we want to cluster the rows of a matrix so that each cluster has identical
+entries, except for \(k\) rows.
+This problem has applications in data privacy.
+
+
+\textbf{Journal papers}:~\cite{DBLP:journals/titb/CiccolellaPBV21,DBLP:journals/jco/BonizzoniVDP13,DBLP:journals/tcs/BonizzoniVD12,DBLP:journals/jco/BonizzoniVD11,DBLP:journals/algorithmica/BonizzoniVDM10,DBLP:journals/jcss/BonizzoniVDJ08}
 
 \subsection{Alternative Splicing}\label{splicing}
 
 Alternative splicing is the biological mechanism that allows a gene to encode
-and produce more than one protein.
+and produce more than one protein.++
 In this field I have focused on efficient algorithms for detecting novel (that
 is not previously known) alternative splicing events.
 
@@ -416,6 +428,13 @@ Milano -- Bicocca.
 \subsection{Courses taught --- principal teacher in charge of the
 course}
 
+\cvitem{2022--today}{%
+    ``Large-Scale Graph Algorithms'',
+    M.Sc. in Computer Science,
+Univ. Milano -- Bicocca (6 ECTS).
+  I have designed the course, since it had never been taught before.
+}
+
 \cvitem{2021--today}{%
     ``Laboratorio di Informatica (Computer Science Lab)'',
     B.Sc. in Statistics, B.Sc. in Statistical Economics,
@@ -423,6 +442,7 @@ Univ. Milano -- Bicocca (3 ECTS).
 I had fully redesigned the course.
 }
 
+\
 \cvitem{2017-today}{%
 ``Foundations of Computer Science'', M.Sc. in Data Science,
 Univ. Milano -- Bicocca. (6 ECTS).
@@ -437,7 +457,7 @@ Milano -- Bicocca (8 ECTS).
     ``Basi di Dati (Databases)'', B.Sc. in Statistics, B.Sc. in Statistical Economics,
 Univ. Milano -- Bicocca (6 ECTS).}
 
-\cvitem{2007-today}{%
+\cvitem{2007-2022}{%
     ``Bioinformatica (Bioinformatics)'', M.Sc. in Biostatistics, Univ.
 Milano -- Bicocca (6 ECTS).
   I have designed the course, since it had never been taught before.
@@ -526,6 +546,10 @@ livello in Bioinformatica (Master in Bioinformatics), Univ. Milano -- Bicocca.}
 I have been \textbf{scientific supervisor} of the following postdoctoral
 positions:
 
+\cvitem{2022--today}{%
+Simone Ciccolella. 2-year postdoc position on ``Computational Approaches for
+tumor and viral phylogenies''.
+}
 
 \cvitem{2018--2019}{%
 Murray Patterson. 2-year postdoc position on ``Haplotype
@@ -535,13 +559,14 @@ assembly from sequencing reads''. Currently Assistant Professor
 
 \cvitem{2015}{%
 Hassan Mahmoud Mohamed Ramadan Mohamed.
-1-yar postdoc position on
+1-year postdoc position on
 ``Methodology for treatment and data analysis of NGS data for
 the detection of alternate splicing events''
 }
 
 Moreover, I have contributed to the training of the following postdocs:
 
+\cvlistitem{Luca Denti}
 \cvlistitem{Marco Previtali}
 \cvlistitem{Stefano Beretta}
 
@@ -549,9 +574,6 @@ Moreover, I have contributed to the training of the following postdocs:
 
 \textbf{Supervisor} of
 
-
-\cvitem{2021--2024 (expected)}{%
-  Francesco Porto --- PhD in Computer Science}
 
 \cvitem{2021--2024 (expected)}{%
   Jorge Avila Cartes --- PhD in Computer Science}
@@ -593,7 +615,11 @@ PhD students:
 
   I have supervised or co-supervised the thesis of more than 10 M.Sc.
   students  in Computer Science, Statistical Economics, Biostatistics,
-  Data Science.
+  Data Science at University of Milano--Bicocca and at the University of Milan.
+  I am currently supervising the thesis of a M.Sc. in Bioinformatics at the
+Pwani University Biosciences Research Centre, Kilifi (Kenya).
+
+
 
   I have supervised the activities related to the
   \textbf{Exchange mobility EXTRA UE} program of:
@@ -612,6 +638,13 @@ Simone Ciccolella is currently a postdoc under my supervision.}
   I have supervised the final projects of more than 50 B.Sc. students in
   Computer Science, Statistics, and Statistical Economics.
 
+\subsection{Incoming visits}
+
+\cvlistitem{%
+I have been in charge of hosting Prof. Vladimir Filipovic (Associate Professor at University of Belgrade, Faculty of Mathematics,
+Department of Computer Science) during his sabbatical from 20/01/2018 to 30/09/2018.
+ During his visit, we have collaborated on the development of metaheuristics in Bioinformatics
+}
   \section{Service}
 
   \subsection{University Service}
@@ -726,6 +759,11 @@ Simone Ciccolella is currently a postdoc under my supervision.}
 
 \cvitem{2023}{%
   \textbf{Program Committee Chair} of Computability in Europe (CiE) 2023.
+This international conference will take place in Batumi (Georgia) in July 24-28
+and is the flagship conference of the Association Computability in Europe that
+has more than 1000 members and focuses on computability science in all its
+multidisciplinary facets.
+The conference proceedings will be published in the LNCS series.
 }
 
 \cvitem{2013-today}{%
@@ -753,7 +791,10 @@ Simone Ciccolella is currently a postdoc under my supervision.}
   \cvitem{2018-today}{%
   Executive Officer of the \textbf{Steering Committee} of the conference
   Computability in Europe
-  }\cvitem{1997-today}{%
+}
+
+
+\cvitem{1997-today}{%
   Reviewer for: ACM/IEEE
   Transactions on Computational Biology and Bioinformatics, Algorithmica,
   Algorithms, Bioinformatics, Briefings in Bioinformatics, Graphs and

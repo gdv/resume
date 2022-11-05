@@ -12,5 +12,9 @@
         "Sistemistica",
         "Studi",
         "WABI"
-    ]
+    ],
+    "latex-workshop.latex.clean.command": "latexmk",
+    "latex-workshop.latex.clean.fileTypes": [],
+    "latex-workshop.latex.clean.method": "cleanCommand",
+    "latex-workshop.latex.autoBuild.run": "onSave"
 }
