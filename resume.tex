@@ -19,15 +19,15 @@
 \ifxetexorluatex%
   \usepackage{fontspec}
   \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX}
-  \setmainfont{Latin Modern Roman}
-  \setsansfont{Latin Modern Sans}
-  \setmonofont{Latin Modern Mono}
-  \setmathfont{Latin Modern Math}
+  \defaultfontfeatures{ Scale=MatchLowercase, Ligatures=TeX }
+  \setmainfont{TeX Gyre Termes}[Scale=1.0]
+  \setmathfont{TeX Gyre Termes Math}
 \else
   \usepackage[utf8]{inputenc}
   \usepackage[T1]{fontenc}
-  \usepackage{lmodern}
+  \usepackage{newpxtext}
+  \usepackage[vvarbb]{newpxmath}
+%  \usepackage{lmodern}
 \fi
 
 % personal data
@@ -43,23 +43,11 @@
 \makeatletter
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
-\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
-\usepackage[resetlabels]{multibib}
-\newcites{inbook,article,conference,P}{{Book chapters},{Journal
-articles},{Conference proceedings}, {Preprints}}
-
-% \usepackage[style=numeric,minnames=8,maxnames=8,defernumbers=true,sorting=ydnt]{biblatex}
-% \addbibresource{gdv.bib}
-
-% define different groups for references here
-% \DeclareBibliographyCategory{conference}
-% \DeclareBibliographyCategory{journal}
-
-% customize format how bib sections are rendered, here: regular \section{}
-% \defbibheading{mybibsection}[\bibname]{%
-% \section{#1}%
-% }
-
+\usepackage[resetlabels,labeled]{multibib}
+\newcites{I}{Chapters in Book}
+\newcites{J}{Journal articles}
+\newcites{C}{Conference proceedings}
+\newcites{P}{Preprints}
 
 \title{CV}
 \begin{document}
@@ -1218,17 +1206,17 @@ those algorithms.
 \section{Publications}
 
 
-\nocitearticle{*}
-\bibliographystylearticle{unsrt}
-\bibliographyarticle{article}
+\nociteJ{*}
+\bibliographystyleJ{unsrt}
+\bibliographyJ{article}
 
-\nociteconference{*}
-\bibliographystyleconference{unsrt}
-\bibliographyconference{conference}
+\nociteC{*}
+\bibliographystyleC{unsrt}
+\bibliographyC{conference}
 
-\nociteinbook{*}
-\bibliographystyleinbook{unsrt}
-\bibliographyinbook{inbook}
+\nociteI{*}
+\bibliographystyleI{unsrt}
+\bibliographyI{inbook}
 
 
 \nociteP{*}
