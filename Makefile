@@ -1,13 +1,12 @@
-all: resume.pdf
+all: resume.pdf publications.org
 
 print-%  : ; @echo $* = $($*)
 BIBS = inbook article conference preprint
 BIBFILES = $(BIBS:%=%.bib)
-BIBCLEANS = $(BIBS:%=%-clean.bib)
 $(info    BIBFILES is $(BIBFILES))
 
-%-clean.bib: %.bib
-	bibtool -r keep_bibtex $< -o $@
+publications.org: $(BIBFILES) webpage.py
+	pixi run ./webpage.py > $@ && cp $@ ~/Devel/WWW/gianluca.dellavedova.org/content/
 
 %.pdf: %.tex $(BIBFILES)
 	latexmk $<

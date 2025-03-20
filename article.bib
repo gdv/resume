@@ -70,6 +70,7 @@ Publisher: Springer London},
     author = {Avila Cartes, Jorge and Bonizzoni, Paola and Ciccolella, Simone and Della Vedova, Gianluca and Denti, Luca and Didelot, Xavier and Monti, Davide Cesare and Pirola, Yuri},
     editor = {Valencia, Alfonso},
     month = may,
+    code = {https://github.com/AlgoLab/RecGraph},
     year = 2024,
     keywords = {⛔ No INSPIRE recid found},
     pages = {btae292},
@@ -140,6 +141,7 @@ Publisher: Springer London},
     volume = {12},
     year = {2022},
     month = {12},
+    code = "https://github.com/AlgoLab/CouGaR-g",
     abstract = "{Since the beginning of the coronavirus disease 2019 pandemic, there has been an explosion of sequencing of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) virus, making it the most widely sequenced virus in the history. Several databases and tools have been created to keep track of genome sequences and variants of the virus; most notably, the GISAID platform hosts millions of complete genome sequences, and it is continuously expanding every day. A challenging task is the development of fast and accurate tools that are able to distinguish between the different SARS-CoV-2 variants and assign them to a clade.In this article, we leverage the frequency chaos game representation (FCGR) and convolutional neural networks (CNNs) to develop an original method that learns how to classify genome sequences that we implement into CouGaR-g, a tool for the clade assignment problem on SARS-CoV-2 sequences. On a testing subset of the GISAID, CouGaR-g achieved an \\$96.29\\\\%\\$ overall accuracy, while a similar tool, Covidex, obtained a \\$77,12\\\\%\\$ overall accuracy. As far as we know, our method is the first using deep learning and FCGR for intraspecies classification. Furthermore, by using some feature importance methods, CouGaR-g allows to identify k-mers that match SARS-CoV-2 marker variants.By combining FCGR and CNNs, we develop a method that achieves a better accuracy than Covidex (which is based on random forest) for clade assignment of SARS-CoV-2 genome sequences, also thanks to our training on a much larger dataset, with comparable running times. Our method implemented in CouGaR-g is able to detect k-mers that capture relevant biological information that distinguishes the clades, known as marker variants.The trained models can be tested online providing a FASTA file (with 1 or multiple sequences) at https://huggingface.co/spaces/BIASLab/sars-cov-2-classification-fcgr. CouGaR-g is also available at https://github.com/AlgoLab/CouGaR-g under the GPL.}",
     issn = {2047-217X},
     doi = {10.1093/gigascience/giac119},
@@ -177,6 +179,7 @@ Publisher: Springer London},
     volume     = {22},
     issn       = {1471-2105},
     shorttitle = {{MALVIRUS}},
+    code = "https://algolab.github.io/MALVIRUS/",
     url        = {https://doi.org/10.1186/s12859-022-04668-0},
     doi        = {10.1186/s12859-022-04668-0},
     abstract   = {Being able to efficiently call variants from the increasing amount of sequencing data daily produced from multiple viral strains is of the utmost importance, as demonstrated during the COVID-19 pandemic, in order to track the spread of the viral strains across the globe.},
@@ -191,37 +194,37 @@ Publisher: Springer London},
     file       = {Ciccolella et al. - 2022 - MALVIRUS an integrated application for viral vari.pdf:/home/gianluca/zotero/storage/VGEQW372/Ciccolella et al. - 2022 - MALVIRUS an integrated application for viral vari.pdf:application/pdf},
 }
 
-@article{DBLP:journals/jcb/AliCLVP21,
-  author    = {Sarwan Ali and
-               Simone Ciccolella and
-               Lorenzo Lucarella and
-               Della Vedova, Gianluca and
-               Murray Patterson},
-  title     = {Simpler and Faster Development of Tumor Phylogeny Pipelines},
-  journal   = {Journal of Computational Biology},
-  volume    = {28},
-  number    = {11},
-  pages     = {1142--1155},
-  year      = {2021},
-  url       = {https://doi.org/10.1089/cmb.2021.0271},
-  doi       = {10.1089/cmb.2021.0271},
-  timestamp = {Sat, 25 Dec 2021 00:00:00 +0100},
-  biburl    = {https://dblp.org/rec/journals/jcb/AliCLVP21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@Article{DBLP:journals/jcb/AliCLVP21,
+  author          = {Sarwan Ali and Ciccolella, Simone and Lorenzo Lucarella and
+                  Della Vedova, Gianluca and Murray Patterson},
+  title           = {Simpler and Faster Development of Tumor Phylogeny
+                  Pipelines},
+  journal         = {Journal of Computational Biology},
+  year            = 2021,
+  volume          = 28,
+  number          = 11,
+  pages           = {1142-1155},
+  doi             = {10.1089/cmb.2021.0271},
+  url             = {https://doi.org/10.1089/cmb.2021.0271},
+  code            = {https://github.com/plastic-phy/plastic},
+  timestamp       = {Sat, 25 Dec 2021 00:00:00 +0100},
+  biburl          = {https://dblp.org/rec/journals/jcb/AliCLVP21.bib},
+  bibsource       = {dblp computer science bibliography, https://dblp.org}
 }
 
 @article{DBLP:journals/bioinformatics/DentiPPCVRB21,
   author    = {Luca Denti and
-               Yuri Pirola and
-               Marco Previtali and
+               Pirola, Yuri and
+               Previtali, Marco and
                Tamara Ceccato and
                Della Vedova, Gianluca and
-               Raffaella Rizzi and
-               Paola Bonizzoni},
+               Rizzi, Raffaella and
+               Bonizzoni, Paola},
   title     = {Shark: fishing relevant reads in an RNA-Seq sample},
   journal   = {Bioinformatics},
   volume    = {37},
   number    = {4},
+  code = "https://github.com/AlgoLab/shark",
   pages     = {464--472},
   year      = {2021},
   url       = {https://doi.org/10.1093/bioinformatics/btaa779},
@@ -232,12 +235,12 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/bioinformatics/CiccolellaRGPSB21,
-  author    = {Simone Ciccolella and
+  author    = {Ciccolella, Simone and
                Camir Ricketts and
-               Mauricio Soto Gomez and
+               Soto Gomez, Mauricio and
                Murray Patterson and
                Dana Silverbush and
-               Paola Bonizzoni and
+               Bonizzoni, Paola and
                Iman Hajirasouliha and
                Della Vedova, Gianluca},
   title     = {Inferring cancer progression from Single-Cell Sequencing while allowing
@@ -247,6 +250,7 @@ Publisher: Springer London},
   number    = {3},
   pages     = {326--333},
   year      = {2021},
+  code = "https://github.com/sciccolella/sasc",
   url       = {https://doi.org/10.1093/bioinformatics/btaa722},
   doi       = {10.1093/bioinformatics/btaa722},
   timestamp = {Tue, 01 Jun 2021 01:00:00 +0200},
@@ -255,11 +259,11 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcs/BonizzoniVPPR21,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Yuri Pirola and
-               Marco Previtali and
-               Raffaella Rizzi},
+               Pirola, Yuri and
+               Previtali, Marco and
+               Rizzi, Raffaella},
   title     = {Computing the multi-string {BWT} and {LCP} array in external memory},
   journal   = {Theoretical Computer Science},
   volume    = {862},
@@ -273,9 +277,9 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/titb/CiccolellaPBV21,
-  author    = {Simone Ciccolella and
+  author    = {Ciccolella, Simone and
                Murray Patterson and
-               Paola Bonizzoni and
+               Bonizzoni, Paola and
                Della Vedova, Gianluca},
   title     = {Effective Clustering for Single Cell Sequencing Cancer Data},
   journal   = {{IEEE} J. Biomed. Health Informatics},
@@ -291,17 +295,18 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/bioinformatics/CiccolellaBDBPV21,
-  author    = {Simone Ciccolella and
+  author    = {Ciccolella, Simone and
                Giulia Bernardini and
                Luca Denti and
-               Paola Bonizzoni and
-               Marco Previtali and
+               Bonizzoni, Paola and
+               Previtali, Marco and
                Della Vedova, Gianluca},
   title     = {Triplet-based similarity score for fully multilabeled trees with poly-occurring
                labels},
   journal   = {Bioinformatics},
   volume    = {37},
   number    = {2},
+  code = "https://github.com/AlgoLab/mp3treesim",
   pages     = {178--184},
   year      = {2021},
   url       = {https://doi.org/10.1093/bioinformatics/btaa676},
@@ -312,12 +317,12 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/bmcbi/CiccolellaGPVHB20,
-  author    = {Simone Ciccolella and
-               Mauricio Soto Gomez and
+  author    = {Ciccolella, Simone and
+               Soto Gomez, Mauricio and
                Murray D. Patterson and
                Della Vedova, Gianluca and
                Iman Hajirasouliha and
-               Paola Bonizzoni},
+               Bonizzoni, Paola},
   title     = {gpps: an {ILP}-based approach for inferring cancer progression with
                mutation losses from single cell data},
   journal   = {{BMC} Bioinformatics},
@@ -325,6 +330,7 @@ Publisher: Springer London},
   number    = {1},
   pages     = {413},
   year      = {2020},
+  code = "https://github.com/AlgoLab/gpps",
   url       = {https://doi.org/10.1186/s12859-020-03736-7},
   doi       = {10.1186/s12859-020-03736-7},
   timestamp = {Thu, 14 Oct 2021 01:00:00 +0200},
@@ -333,10 +339,10 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcbb/BonizzoniCVS19,
-  author    = {Paola Bonizzoni and
-               Simone Ciccolella and
+  author    = {Bonizzoni, Paola and
+               Ciccolella, Simone and
                Della Vedova, Gianluca and
-               Mauricio Soto Gomez},
+               Soto Gomez, Mauricio},
   title     = {Does Relaxing the Infinite Sites Assumption Give Better Tumor Phylogenies?
                An {ILP}-Based Comparative Approach},
   journal   = {{IEEE} {ACM} Trans. on Computational Biology and Bioinformatics},
@@ -344,6 +350,7 @@ Publisher: Springer London},
   number    = {5},
   pages     = {1410--1423},
   year      = {2019},
+  code = "https://github.com/AlgoLab/gppf",
   url       = {https://doi.org/10.1109/TCBB.2018.2865729},
   doi       = {10.1109/TCBB.2018.2865729},
   timestamp = {Thu, 06 May 2021 01:00:00 +0200},
@@ -352,15 +359,16 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/jcb/BonizzoniVPPR19,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Yuri Pirola and
-               Marco Previtali and
-               Raffaella Rizzi},
+               Pirola, Yuri and
+               Previtali, Marco and
+               Rizzi, Raffaella},
   title     = {Multithread Multistring {B}urrows-{W}heeler Transform and Longest Common
                Prefix Array},
   journal   = {Journal of Computational Biology},
   volume    = {26},
+  code = "https://github.com/AlgoLab/bwt-lcp-parallel",
   number    = {9},
   pages     = {948--961},
   year      = {2019},
@@ -372,13 +380,13 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/quanbio/RizziBPPPVB19,
-  author    = {Raffaella Rizzi and
+  author    = {Rizzi, Raffaella and
                Stefano Beretta and
                Murray Patterson and
-               Yuri Pirola and
-               Marco Previtali and
+               Pirola, Yuri and
+               Previtali, Marco and
                Della Vedova, Gianluca and
-               Paola Bonizzoni},
+               Bonizzoni, Paola},
   title     = {Overlap graphs and de {B}ruijn graphs: data structures for de novo genome
                assembly in the big data era},
   journal   = {Quantitative Biology},
@@ -398,12 +406,13 @@ Publisher: Springer London},
                Murray Patterson and
                Simone Zaccaria and
                Della Vedova, Gianluca and
-               Paola Bonizzoni},
+               Bonizzoni, Paola},
   title     = {{HapCHAT}: adaptive haplotype assembly for efficiently leveraging high
                coverage in long reads},
   journal   = {{BMC} Bioinformatics},
   volume    = {19},
   number    = {1},
+  code = "https://github.com/AlgoLab/HapCHAT",
   pages     = {252:1--252:19},
   year      = {2018},
   url       = {https://doi.org/10.1186/s12859-018-2253-8},
@@ -415,14 +424,15 @@ Publisher: Springer London},
 
 @article{DBLP:journals/bmcbi/DentiRBVPB18,
   author    = {Luca Denti and
-               Raffaella Rizzi and
+               Rizzi, Raffaella and
                Stefano Beretta and
                Della Vedova, Gianluca and
-               Marco Previtali and
-               Paola Bonizzoni},
+               Previtali, Marco and
+               Bonizzoni, Paola},
   title     = {{ASGAL:} aligning RNA-Seq data to a splicing graph to detect novel
                alternative splicing events},
   journal   = {{BMC} Bioinformatics},
+  code = "https://github.com/AlgoLab/galig",
   volume    = {19},
   number    = {1},
   pages     = {444:1--444:21},
@@ -450,10 +460,10 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcs/BonizzoniCVRT17,
-  author    = {Paola Bonizzoni and
-               Anna Paola Carrieri and
+  author    = {Bonizzoni, Paola and
+               Carrieri, Anna Paola  and
                Della Vedova, Gianluca and
-               Raffaella Rizzi and
+               Rizzi, Raffaella and
                Gabriella Trucco},
   title     = {A colored graph approach to perfect phylogeny with persistent characters},
   journal   = {Theoretical Computer Science},
@@ -468,15 +478,16 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/algorithmica/BonizzoniVPPR17,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Yuri Pirola and
-               Marco Previtali and
-               Raffaella Rizzi},
+               Pirola, Yuri and
+               Previtali, Marco and
+               Rizzi, Raffaella},
   title     = {An External-Memory Algorithm for String Graph Construction},
   journal   = {Algorithmica},
   volume    = {78},
   number    = {2},
+  code = "https://github.com/AlgoLab/bwt-lcp-em",
   pages     = {394--424},
   year      = {2017},
   url       = {https://doi.org/10.1007/s00453-016-0165-4},
@@ -487,17 +498,18 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/jcb/BonizzoniVPPR17,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Yuri Pirola and
-               Marco Previtali and
-               Raffaella Rizzi},
+               Pirola, Yuri and
+               Previtali, Marco and
+               Rizzi, Raffaella},
   title     = {{FSG:} Fast String Graph Construction for De Novo Assembly},
   journal   = {Journal of Computational Biology},
   volume    = {24},
   number    = {10},
   pages     = {953--968},
   year      = {2017},
+  code = "https://github.com/AlgoLab/FastStringGraph",
   url       = {https://doi.org/10.1089/cmb.2017.0089},
   doi       = {10.1089/cmb.2017.0089},
   timestamp = {Mon, 15 Jun 2020 01:00:00 +0200},
@@ -506,10 +518,10 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/fuin/BonizzoniCVRT17,
-  author    = {Paola Bonizzoni and
-               Anna Paola Carrieri and
+  author    = {Bonizzoni, Paola and
+               Carrieri, Anna Paola  and
                Della Vedova, Gianluca and
-               Raffaella Rizzi and
+               Rizzi, Raffaella and
                Gabriella Trucco},
   title     = {Species-Driven Persistent Phylogeny},
   journal   = {Fundamenta Informaticae},
@@ -525,11 +537,11 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/jcb/BonizzoniVPPR16,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Yuri Pirola and
-               Marco Previtali and
-               Raffaella Rizzi},
+               Pirola, Yuri and
+               Previtali, Marco and
+               Rizzi, Raffaella},
   title     = {{LSG:} An External-Memory Tool to Compute String Graphs for Next-Generation
                Sequencing Data Assembly},
   journal   = {Journal of Computational Biology},
@@ -537,6 +549,7 @@ Publisher: Springer London},
   number    = {3},
   pages     = {137--149},
   year      = {2016},
+  code = "https://github.com/AlgoLab/LightStringGraph",
   url       = {https://doi.org/10.1089/cmb.2015.0172},
   doi       = {10.1089/cmb.2015.0172},
   timestamp = {Mon, 15 Jun 2020 01:00:00 +0200},
@@ -545,95 +558,27 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/nar/IsonRMKRCABBBBB16,
-  author    = {Jon C. Ison and
-               Kristoffer Rapacki and
-               Herv{\'{e}} M{\'{e}}nager and
-               Mat{\'{u}}s Kalas and
-               Emil Rydza and
-               Piotr Chmura and
-               Christian Anthon and
-               Niall Beard and
-               Karel Berka and
-               Dan M. Bolser and
-               Tim Booth and
-               Anthony Bretaudeau and
-               Jan Brezovsky and
-               Rita Casadio and
-               Gianni Cesareni and
-               Frederik Coppens and
-               Michael Cornell and
-               Gianmauro Cuccuru and
-               Kristian Davidsen and
-               Della Vedova, Gianluca and
-               Tunca Dogan and
-               Olivia Doppelt{-}Azeroual and
-               Laura Emery and
-               Elisabeth Gasteiger and
-               Thomas Gatter and
-               Tatyana Goldberg and
-               Marie Grosjean and
-               Bj{\"{o}}rn A. Gr{\"{u}}ning and
-               Manuela Helmer{-}Citterich and
-               Hans Ienasescu and
-               Vassilios Ioannidis and
-               Martin Closter Jespersen and
-               Rafael C. Jimenez and
-               Nick S. Juty and
-               Peter Juvan and
-               Maximilian Koch and
-               Camille Laibe and
-               Jing{-}Woei Li and
-               Luana Licata and
-               Fabien Mareuil and
-               Ivan Micetic and
-               Rune M{\o}llegaard Friborg and
-               S{\'{e}}bastien Moretti and
-               Chris Morris and
-               Steffen M{\"{o}}ller and
-               Aleksandra Nenadic and
-               Hedi Peterson and
-               Giuseppe Profiti and
-               Peter M. Rice and
-               Paolo Romano and
-               Paola Roncaglia and
-               Rabie Saidi and
-               Andrea Schafferhans and
-               Veit Schw{\"{a}}mmle and
-               Callum Smith and
-               Maria Maddalena Sperotto and
-               Heinz Stockinger and
-               Radka Svobodov{\'{a}} Varekov{\'{a}} and
-               Silvio C. E. Tosatto and
-               Victor de la Torre and
-               Paolo Uva and
-               Allegra Via and
-               Guy Yachdav and
-               Federico Zambelli and
-               Gert Vriend and
-               Burkhard Rost and
-               Helen E. Parkinson and
-               Peter L{\o}ngreen and
-               S{\o}ren Brunak},
-  title     = {Tools and data services registry: a community effort to document bioinformatics
-               resources},
-  journal   = {Nucleic Acids Research},
-  volume    = {44},
-  number    = {Database-Issue},
-  pages     = {38--47},
-  year      = {2016},
-  url       = {https://doi.org/10.1093/nar/gkv1116},
-  doi       = {10.1093/nar/gkv1116},
-  timestamp = {Thu, 23 Sep 2021 01:00:00 +0200},
-  biburl    = {https://dblp.org/rec/journals/nar/IsonRMKRCABBBBB16.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+    author = {Ison, Jon and Rapacki, Kristoffer and Ménager, Hervé and Kalaš, Matúš and Rydza, Emil and Chmura, Piotr and Anthon, Christian and Beard, Niall and Berka, Karel and Bolser, Dan and Booth, Tim and Bretaudeau, Anthony and Brezovsky, Jan and Casadio, Rita and Cesareni, Gianni and Coppens, Frederik and Cornell, Michael and Cuccuru, Gianmauro and Davidsen, Kristian and Vedova, Gianluca Della and Dogan, Tunca and Doppelt-Azeroual, Olivia and Emery, Laura and Gasteiger, Elisabeth and Gatter, Thomas and Goldberg, Tatyana and Grosjean, Marie and Grüning, Björn and Helmer-Citterich, Manuela and Ienasescu, Hans and Ioannidis, Vassilios and Jespersen, Martin Closter and Jimenez, Rafael and Juty, Nick and Juvan, Peter and Koch, Maximilian and Laibe, Camille and Li, Jing-Woei and Licata, Luana and Mareuil, Fabien and Mičetić, Ivan and Friborg, Rune Møllegaard and Moretti, Sebastien and Morris, Chris and Möller, Steffen and Nenadic, Aleksandra and Peterson, Hedi and Profiti, Giuseppe and Rice, Peter and Romano, Paolo and Roncaglia, Paola and Saidi, Rabie and Schafferhans, Andrea and Schwämmle, Veit and Smith, Callum and Sperotto, Maria Maddalena and Stockinger, Heinz and Vařeková, Radka Svobodová and Tosatto, Silvio C.E. and de la Torre, Victor and Uva, Paolo and Via, Allegra and Yachdav, Guy and Zambelli, Federico and Vriend, Gert and Rost, Burkhard and Parkinson, Helen and Løngreen, Peter and Brunak, Søren},
+    title = {Tools and data services registry: a community effort to document bioinformatics resources},
+    journal = {Nucleic Acids Research},
+    volume = {44},
+    number = {D1},
+    pages = {D38-D47},
+    year = {2015},
+    month = {11},
+    abstract = {Life sciences are yielding huge data sets that underpin scientific discoveries fundamental to improvement in human health, agriculture and the environment. In support of these discoveries, a plethora of databases and tools are deployed, in technically complex and diverse implementations, across a spectrum of scientific disciplines. The corpus of documentation of these resources is fragmented across the Web, with much redundancy, and has lacked a common standard of information. The outcome is that scientists must often struggle to find, understand, compare and use the best resources for the task at hand.Here we present a community-driven curation effort, supported by ELIXIR—the European infrastructure for biological information—that aspires to a comprehensive and consistent registry of information about bioinformatics resources. The sustainable upkeep of this Tools and Data Services Registry is assured by a curation effort driven by and tailored to local needs, and shared amongst a network of engaged partners.As of November 2015, the registry includes 1785 resources, with depositions from 126 individual registrations including 52 institutional providers and 74 individuals. With community support, the registry can become a standard for dissemination of information about bioinformatics resources: we welcome everyone to join us in this common endeavour. The registry is freely available at https://bio.tools.},
+    issn = {0305-1048},
+    doi = {10.1093/nar/gkv1116},
+    url = {https://doi.org/10.1093/nar/gkv1116},
+    eprint = {https://academic.oup.com/nar/article-pdf/44/D1/D38/9482499/gkv1116.pdf},
 }
 
 @article{DBLP:journals/jcb/BerettaBVPR14,
   author    = {Stefano Beretta and
-               Paola Bonizzoni and
+               Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Yuri Pirola and
-               Raffaella Rizzi},
+               Pirola, Yuri and
+               Rizzi, Raffaella},
   title     = {Modeling Alternative Splicing Variants from {RNA-Seq} Data with Isoform
                Graphs},
   journal   = {Journal of Computational Biology},
@@ -725,10 +670,10 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/jco/BonizzoniVDP13,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi and
-               Yuri Pirola},
+               Dondi, Riccardo and
+               Pirola, Yuri},
   title     = {Parameterized complexity of k-anonymity: hardness and tractability},
   journal   = {Journal of Combinatorial Optimization},
   volume    = {26},
@@ -761,9 +706,9 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcs/BonizzoniVD12,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi},
+               Dondi, Riccardo},
   title     = {A randomized {PTAS} for the minimum Consensus Clustering with a fixed
                number of clusters},
   journal   = {Theoretical Computer Science},
@@ -778,11 +723,11 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcbb/PirolaVBSB12,
-  author    = {Yuri Pirola and
+  author    = {Pirola, Yuri and
                Della Vedova, Gianluca and
                Stefano Biffani and
                Alessandra Stella and
-               Paola Bonizzoni},
+               Bonizzoni, Paola},
   title     = {A Fast and Practical Approach to Genotype Phasing and Imputation on
                a Pedigree with Erroneous and Incomplete Information},
   journal   = {{IEEE} {ACM} Trans. on Computational Biology and Bioinformatics},
@@ -798,17 +743,18 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/bmcbi/PirolaRPPVB12,
-  author    = {Yuri Pirola and
-               Raffaella Rizzi and
+  author    = {Pirola, Yuri and
+               Rizzi, Raffaella and
                Ernesto Picardi and
                Graziano Pesole and
                Della Vedova, Gianluca and
-               Paola Bonizzoni},
+               Bonizzoni, Paola},
   title     = {PIntron: a fast method for detecting the gene structure due to alternative
                splicing via maximal pairings of a pattern and a text},
   journal   = {{BMC} Bioinformatics},
   volume    = {13},
   number    = {{S-5}},
+  code = "https://github.com/AlgoLab/PIntron",
   pages     = {S2},
   year      = {2012},
   url       = {https://doi.org/10.1186/1471-2105-13-S5-S2},
@@ -837,9 +783,9 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/jco/BonizzoniVD11,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi},
+               Dondi, Riccardo},
   title     = {Anonymizing binary and small tables is hard to approximate},
   journal   = {Journal of Combinatorial Optimization},
   volume    = {22},
@@ -854,10 +800,10 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/algorithmica/BonizzoniVDM10,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi and
-               Giancarlo Mauri},
+               Dondi, Riccardo and
+               Mauri, Giancarlo},
   title     = {Fingerprint Clustering with Bounded Number of Missing Values},
   journal   = {Algorithmica},
   volume    = {58},
@@ -872,10 +818,10 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcbb/BonizzoniVDPR10,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi and
-               Yuri Pirola and
+               Dondi, Riccardo and
+               Pirola, Yuri and
                Romeo Rizzi},
   title     = {Pure Parsimony Xor Haplotyping},
   journal   = {{IEEE} {ACM} Trans. on Computational Biology and Bioinformatics},
@@ -891,10 +837,10 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/ipl/BonizzoniVDP10,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi and
-               Yuri Pirola},
+               Dondi, Riccardo and
+               Pirola, Yuri},
   title     = {Variants of constrained longest common subsequence},
   journal   = {Information Processing Letters},
   volume    = {110},
@@ -910,10 +856,10 @@ Publisher: Springer London},
 
 @article{DBLP:journals/nc/VedovaDJPPW10,
   author    = {Della Vedova, Gianluca and
-               Riccardo Dondi and
+               Dondi, Riccardo and
                Tao Jiang and
                Giulio Pavesi and
-               Yuri Pirola and
+               Pirola, Yuri and
                Lusheng Wang},
   title     = {Beyond evolutionary trees},
   journal   = {Natural Computing},
@@ -929,9 +875,9 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/jcss/BonizzoniVDJ08,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi and
+               Dondi, Riccardo and
                Tao Jiang},
   title     = {On the Approximation of Correlation Clustering and Consensus Clustering},
   journal   = {Journal of Computer and System Sciences},
@@ -947,12 +893,12 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcbb/BonizzoniVDFRV07,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi and
+               Dondi, Riccardo and
                Guillaume Fertin and
-               Raffaella Rizzi and
-               St{\'{e}}phane Vialette},
+               Rizzi, Raffaella and
+               Stèphane Vialette},
   title     = {Exemplar Longest Common Subsequence},
   journal   = {{IEEE} {ACM} Trans. on Computational Biology and Bioinformatics},
   volume    = {4},
@@ -967,9 +913,9 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcs/BonizzoniVD05,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi},
+               Dondi, Riccardo},
   title     = {Reconciling a gene tree to a species tree under the duplication cost
                model},
   journal   = {Theoretical Computer Science},
@@ -987,9 +933,9 @@ Publisher: Springer London},
 
 
 @article{DBLP:journals/ijbra/BonizzoniVDM05,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi and
+               Dondi, Riccardo and
                Lorenzo Mariani},
   title     = {Experimental analysis of a new algorithm for partial haplotype completion},
   journal   = {International Journal of Bioinformatics Research and Applications},
@@ -1019,7 +965,7 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/informs/JustV04,
-  author    = {Winfried Just and
+  author    = {Just, Winfried  and
                Della Vedova, Gianluca},
   title     = {Multiple Sequence Alignment as a Facility-Location Problem},
   journal   = {{INFORMS} Journal on Computing},
@@ -1053,9 +999,9 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/jcst/BonizzoniVDL03,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Riccardo Dondi and
+               Dondi, Riccardo and
                Jing Li},
   title     = {The Haplotyping Problem: An Overview of Computational Models and Solutions},
   journal   = {Journal of Computer Science and Technology},
@@ -1137,7 +1083,7 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/jal/BonizzoniV99,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca},
   title     = {An Algorithm for the Modular Decomposition of Hypergraphs},
   journal   = {Journal of Algorithms},
@@ -1153,9 +1099,9 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/ijfcs/BonizzoniVM00,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Giancarlo Mauri},
+               Mauri, Giancarlo},
   title     = {Approximating the Maximum Isomorphic Agreement Subtree is Hard},
   journal   = {International Journal on the Foundations of Computer Science},
   volume    = {11},
@@ -1170,9 +1116,9 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/dam/BonizzoniVM01,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca and
-               Giancarlo Mauri},
+               Mauri, Giancarlo},
   title     = {Experimenting an approximation algorithm for the {LCS}},
   journal   = {Discrete Applied Mathematics},
   volume    = {110},
@@ -1187,7 +1133,7 @@ Publisher: Springer London},
 }
 
 @article{DBLP:journals/tcs/BonizzoniV01,
-  author    = {Paola Bonizzoni and
+  author    = {Bonizzoni, Paola and
                Della Vedova, Gianluca},
   title     = {The complexity of multiple sequence alignment with {SP}-score that is
                a metric},

@@ -14,3 +14,7 @@
 *.aux
 *.fdb_latexmk
 *.synctex.gz
+
+# pixi environments
+.pixi
+*.egg-info
