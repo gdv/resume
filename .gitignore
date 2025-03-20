@@ -18,3 +18,7 @@
 # pixi environments
 .pixi
 *.egg-info
+/publications.org
+/.gitattributes
+/.auctex-auto/
+/pixi.lock
